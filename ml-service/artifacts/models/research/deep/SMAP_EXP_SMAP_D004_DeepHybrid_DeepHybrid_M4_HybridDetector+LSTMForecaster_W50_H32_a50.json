@@ -1,0 +1,14 @@
+{
+  "model_name": "DeepHybrid_M4_HybridDetector+LSTMForecaster_W50_H32_a50",
+  "model_version": "0.1.0",
+  "is_fitted": true,
+  "fit_metadata": {
+    "alpha": 0.5,
+    "classical_model": "M4_HybridDetector",
+    "deep_model": "LSTMForecaster_W50_H32",
+    "classical_min": 0.0,
+    "classical_max": 1.8683068752288818,
+    "deep_min": 0.0,
+    "deep_max": 15.626891136169434
+  }
+}

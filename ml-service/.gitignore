@@ -1,0 +1,30 @@
+# Python environment & cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model binaries
+models/*.pkl
+models/*.joblib
+
+# Raw data
+data/raw/
+data/raw/*
+!data/raw/README.md
+
+# Environment secrets
+.env
+.env.*

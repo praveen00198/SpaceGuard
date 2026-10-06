@@ -1,0 +1,629 @@
+{
+  "generated_at_utc": "2026-09-27T19:13:33.303129+00:00",
+  "phase": "ML Phase 3A \u2014 Preprocessing & Temporal Feature Engineering",
+  "description": "Reproducible, leakage-safe preprocessed datasets and window tensors for NASA SMAP/MSL benchmark.",
+  "ml_model_trained": false,
+  "missions": {
+    "MSL": {
+      "mission": "MSL",
+      "raw_train_shape": [
+        58317,
+        55
+      ],
+      "raw_test_shape": [
+        73729,
+        55
+      ],
+      "retained_channels": 33,
+      "removed_channels": 22,
+      "continuous_channels": 1,
+      "discrete_channels": 32,
+      "mixed_channels": 0,
+      "engineered_feature_count": 54,
+      "feature_names": [
+        "channel_0_scaled",
+        "delta_1",
+        "rolling_mean_10",
+        "rolling_std_10",
+        "rolling_min_10",
+        "rolling_max_10",
+        "rolling_mean_30",
+        "rolling_std_30",
+        "rolling_min_30",
+        "rolling_max_30",
+        "rolling_mean_100",
+        "rolling_std_100",
+        "rolling_min_100",
+        "rolling_max_100",
+        "ema_10",
+        "ema_30",
+        "ema_100",
+        "ema_divergence_10_30",
+        "ema_divergence_30_100",
+        "active_command_count",
+        "continuous_val_when_command_active",
+        "continuous_delta_when_command_active",
+        "aux_discrete_ch_1",
+        "aux_discrete_ch_2",
+        "aux_discrete_ch_3",
+        "aux_discrete_ch_4",
+        "aux_discrete_ch_5",
+        "aux_discrete_ch_6",
+        "aux_discrete_ch_7",
+        "aux_discrete_ch_8",
+        "aux_discrete_ch_9",
+        "aux_discrete_ch_10",
+        "aux_discrete_ch_11",
+        "aux_discrete_ch_12",
+        "aux_discrete_ch_13",
+        "aux_discrete_ch_14",
+        "aux_discrete_ch_15",
+        "aux_discrete_ch_16",
+        "aux_discrete_ch_17",
+        "aux_discrete_ch_18",
+        "aux_discrete_ch_19",
+        "aux_discrete_ch_20",
+        "aux_discrete_ch_21",
+        "aux_discrete_ch_22",
+        "aux_discrete_ch_23",
+        "aux_discrete_ch_24",
+        "aux_discrete_ch_25",
+        "aux_discrete_ch_26",
+        "aux_discrete_ch_27",
+        "aux_discrete_ch_28",
+        "aux_discrete_ch_29",
+        "aux_discrete_ch_30",
+        "aux_discrete_ch_31",
+        "aux_discrete_ch_32"
+      ],
+      "default_window": {
+        "window_size": 128,
+        "stride": 10,
+        "train_tensor_shape": [
+          5819,
+          128,
+          54
+        ],
+        "test_tensor_shape": [
+          7361,
+          128,
+          54
+        ],
+        "test_label_stats": {
+          "total_windows": 7361,
+          "anomalous_windows_any": 1227,
+          "nominal_windows_any": 6134,
+          "any_anomaly_percentage": 16.67,
+          "majority_anomalous_windows": 756,
+          "majority_anomaly_percentage": 10.27,
+          "majority_threshold": 0.5,
+          "mean_anomaly_fraction": 0.1055
+        }
+      },
+      "candidate_evaluations": {
+        "W50_S1": {
+          "window_size": 50,
+          "stride": 1,
+          "train_windows": 58268,
+          "test_windows": 73680,
+          "est_train_mb": 600.14,
+          "est_test_mb": 758.88,
+          "label_stats": {
+            "total_windows": 73680,
+            "anomalous_windows_any": 9530,
+            "nominal_windows_any": 64150,
+            "any_anomaly_percentage": 12.93,
+            "majority_anomalous_windows": 7746,
+            "majority_anomaly_percentage": 10.51,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1054
+          }
+        },
+        "W50_S5": {
+          "window_size": 50,
+          "stride": 5,
+          "train_windows": 11654,
+          "test_windows": 14736,
+          "est_train_mb": 120.03,
+          "est_test_mb": 151.78,
+          "label_stats": {
+            "total_windows": 14736,
+            "anomalous_windows_any": 1906,
+            "nominal_windows_any": 12830,
+            "any_anomaly_percentage": 12.93,
+            "majority_anomalous_windows": 1553,
+            "majority_anomaly_percentage": 10.54,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1054
+          }
+        },
+        "W50_S10": {
+          "window_size": 50,
+          "stride": 10,
+          "train_windows": 5827,
+          "test_windows": 7368,
+          "est_train_mb": 60.02,
+          "est_test_mb": 75.89,
+          "label_stats": {
+            "total_windows": 7368,
+            "anomalous_windows_any": 953,
+            "nominal_windows_any": 6415,
+            "any_anomaly_percentage": 12.93,
+            "majority_anomalous_windows": 775,
+            "majority_anomaly_percentage": 10.52,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1054
+          }
+        },
+        "W100_S1": {
+          "window_size": 100,
+          "stride": 1,
+          "train_windows": 58218,
+          "test_windows": 73630,
+          "est_train_mb": 1199.25,
+          "est_test_mb": 1516.73,
+          "label_stats": {
+            "total_windows": 73630,
+            "anomalous_windows_any": 11310,
+            "nominal_windows_any": 62320,
+            "any_anomaly_percentage": 15.36,
+            "majority_anomalous_windows": 7608,
+            "majority_anomaly_percentage": 10.33,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W100_S5": {
+          "window_size": 100,
+          "stride": 5,
+          "train_windows": 11644,
+          "test_windows": 14726,
+          "est_train_mb": 239.86,
+          "est_test_mb": 303.35,
+          "label_stats": {
+            "total_windows": 14726,
+            "anomalous_windows_any": 2262,
+            "nominal_windows_any": 12464,
+            "any_anomaly_percentage": 15.36,
+            "majority_anomalous_windows": 1525,
+            "majority_anomaly_percentage": 10.36,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W100_S10": {
+          "window_size": 100,
+          "stride": 10,
+          "train_windows": 5822,
+          "test_windows": 7363,
+          "est_train_mb": 119.93,
+          "est_test_mb": 151.67,
+          "label_stats": {
+            "total_windows": 7363,
+            "anomalous_windows_any": 1131,
+            "nominal_windows_any": 6232,
+            "any_anomaly_percentage": 15.36,
+            "majority_anomalous_windows": 764,
+            "majority_anomaly_percentage": 10.38,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W128_S1": {
+          "window_size": 128,
+          "stride": 1,
+          "train_windows": 58190,
+          "test_windows": 73602,
+          "est_train_mb": 1534.31,
+          "est_test_mb": 1940.68,
+          "label_stats": {
+            "total_windows": 73602,
+            "anomalous_windows_any": 12288,
+            "nominal_windows_any": 61314,
+            "any_anomaly_percentage": 16.7,
+            "majority_anomalous_windows": 7546,
+            "majority_anomaly_percentage": 10.25,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W128_S5": {
+          "window_size": 128,
+          "stride": 5,
+          "train_windows": 11638,
+          "test_windows": 14721,
+          "est_train_mb": 306.86,
+          "est_test_mb": 388.15,
+          "label_stats": {
+            "total_windows": 14721,
+            "anomalous_windows_any": 2454,
+            "nominal_windows_any": 12267,
+            "any_anomaly_percentage": 16.67,
+            "majority_anomalous_windows": 1514,
+            "majority_anomaly_percentage": 10.28,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W128_S10": {
+          "window_size": 128,
+          "stride": 10,
+          "train_windows": 5819,
+          "test_windows": 7361,
+          "est_train_mb": 153.43,
+          "est_test_mb": 194.09,
+          "label_stats": {
+            "total_windows": 7361,
+            "anomalous_windows_any": 1227,
+            "nominal_windows_any": 6134,
+            "any_anomaly_percentage": 16.67,
+            "majority_anomalous_windows": 756,
+            "majority_anomaly_percentage": 10.27,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1055
+          }
+        },
+        "W256_S1": {
+          "window_size": 256,
+          "stride": 1,
+          "train_windows": 58062,
+          "test_windows": 73474,
+          "est_train_mb": 3061.86,
+          "est_test_mb": 3874.61,
+          "label_stats": {
+            "total_windows": 73474,
+            "anomalous_windows_any": 16534,
+            "nominal_windows_any": 56940,
+            "any_anomaly_percentage": 22.5,
+            "majority_anomalous_windows": 6328,
+            "majority_anomaly_percentage": 8.61,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1053
+          }
+        },
+        "W256_S5": {
+          "window_size": 256,
+          "stride": 5,
+          "train_windows": 11613,
+          "test_windows": 14695,
+          "est_train_mb": 612.4,
+          "est_test_mb": 774.93,
+          "label_stats": {
+            "total_windows": 14695,
+            "anomalous_windows_any": 3306,
+            "nominal_windows_any": 11389,
+            "any_anomaly_percentage": 22.5,
+            "majority_anomalous_windows": 1264,
+            "majority_anomaly_percentage": 8.6,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1053
+          }
+        },
+        "W256_S10": {
+          "window_size": 256,
+          "stride": 10,
+          "train_windows": 5807,
+          "test_windows": 7348,
+          "est_train_mb": 306.23,
+          "est_test_mb": 387.49,
+          "label_stats": {
+            "total_windows": 7348,
+            "anomalous_windows_any": 1654,
+            "nominal_windows_any": 5694,
+            "any_anomaly_percentage": 22.51,
+            "majority_anomalous_windows": 632,
+            "majority_anomaly_percentage": 8.6,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1053
+          }
+        }
+      }
+    },
+    "SMAP": {
+      "mission": "SMAP",
+      "raw_train_shape": [
+        135183,
+        25
+      ],
+      "raw_test_shape": [
+        427617,
+        25
+      ],
+      "retained_channels": 24,
+      "removed_channels": 1,
+      "continuous_channels": 1,
+      "discrete_channels": 23,
+      "mixed_channels": 0,
+      "engineered_feature_count": 45,
+      "feature_names": [
+        "channel_0_scaled",
+        "delta_1",
+        "rolling_mean_10",
+        "rolling_std_10",
+        "rolling_min_10",
+        "rolling_max_10",
+        "rolling_mean_30",
+        "rolling_std_30",
+        "rolling_min_30",
+        "rolling_max_30",
+        "rolling_mean_100",
+        "rolling_std_100",
+        "rolling_min_100",
+        "rolling_max_100",
+        "ema_10",
+        "ema_30",
+        "ema_100",
+        "ema_divergence_10_30",
+        "ema_divergence_30_100",
+        "active_command_count",
+        "continuous_val_when_command_active",
+        "continuous_delta_when_command_active",
+        "aux_discrete_ch_1",
+        "aux_discrete_ch_2",
+        "aux_discrete_ch_3",
+        "aux_discrete_ch_4",
+        "aux_discrete_ch_5",
+        "aux_discrete_ch_6",
+        "aux_discrete_ch_7",
+        "aux_discrete_ch_8",
+        "aux_discrete_ch_9",
+        "aux_discrete_ch_10",
+        "aux_discrete_ch_11",
+        "aux_discrete_ch_12",
+        "aux_discrete_ch_13",
+        "aux_discrete_ch_14",
+        "aux_discrete_ch_15",
+        "aux_discrete_ch_16",
+        "aux_discrete_ch_17",
+        "aux_discrete_ch_18",
+        "aux_discrete_ch_19",
+        "aux_discrete_ch_20",
+        "aux_discrete_ch_21",
+        "aux_discrete_ch_22",
+        "aux_discrete_ch_23"
+      ],
+      "default_window": {
+        "window_size": 128,
+        "stride": 10,
+        "train_tensor_shape": [
+          13506,
+          128,
+          45
+        ],
+        "test_tensor_shape": [
+          42749,
+          128,
+          45
+        ],
+        "test_label_stats": {
+          "total_windows": 42749,
+          "anomalous_windows_any": 6315,
+          "nominal_windows_any": 36434,
+          "any_anomaly_percentage": 14.77,
+          "majority_anomalous_windows": 5396,
+          "majority_anomaly_percentage": 12.62,
+          "majority_threshold": 0.5,
+          "mean_anomaly_fraction": 0.1279
+        }
+      },
+      "candidate_evaluations": {
+        "W50_S1": {
+          "window_size": 50,
+          "stride": 1,
+          "train_windows": 135134,
+          "test_windows": 427568,
+          "est_train_mb": 1159.86,
+          "est_test_mb": 3669.85,
+          "label_stats": {
+            "total_windows": 427568,
+            "anomalous_windows_any": 57979,
+            "nominal_windows_any": 369589,
+            "any_anomaly_percentage": 13.56,
+            "majority_anomalous_windows": 54763,
+            "majority_anomaly_percentage": 12.81,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W50_S5": {
+          "window_size": 50,
+          "stride": 5,
+          "train_windows": 27027,
+          "test_windows": 85514,
+          "est_train_mb": 231.97,
+          "est_test_mb": 733.97,
+          "label_stats": {
+            "total_windows": 85514,
+            "anomalous_windows_any": 11591,
+            "nominal_windows_any": 73923,
+            "any_anomaly_percentage": 13.55,
+            "majority_anomalous_windows": 10955,
+            "majority_anomaly_percentage": 12.81,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W50_S10": {
+          "window_size": 50,
+          "stride": 10,
+          "train_windows": 13514,
+          "test_windows": 42757,
+          "est_train_mb": 115.99,
+          "est_test_mb": 366.99,
+          "label_stats": {
+            "total_windows": 42757,
+            "anomalous_windows_any": 5794,
+            "nominal_windows_any": 36963,
+            "any_anomaly_percentage": 13.55,
+            "majority_anomalous_windows": 5476,
+            "majority_anomaly_percentage": 12.81,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W100_S1": {
+          "window_size": 100,
+          "stride": 1,
+          "train_windows": 135084,
+          "test_windows": 427518,
+          "est_train_mb": 2318.87,
+          "est_test_mb": 7338.83,
+          "label_stats": {
+            "total_windows": 427518,
+            "anomalous_windows_any": 61329,
+            "nominal_windows_any": 366189,
+            "any_anomaly_percentage": 14.35,
+            "majority_anomalous_windows": 54494,
+            "majority_anomaly_percentage": 12.75,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W100_S5": {
+          "window_size": 100,
+          "stride": 5,
+          "train_windows": 27017,
+          "test_windows": 85504,
+          "est_train_mb": 463.78,
+          "est_test_mb": 1467.77,
+          "label_stats": {
+            "total_windows": 85504,
+            "anomalous_windows_any": 12261,
+            "nominal_windows_any": 73243,
+            "any_anomaly_percentage": 14.34,
+            "majority_anomalous_windows": 10901,
+            "majority_anomaly_percentage": 12.75,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W100_S10": {
+          "window_size": 100,
+          "stride": 10,
+          "train_windows": 13509,
+          "test_windows": 42752,
+          "est_train_mb": 231.9,
+          "est_test_mb": 733.89,
+          "label_stats": {
+            "total_windows": 42752,
+            "anomalous_windows_any": 6129,
+            "nominal_windows_any": 36623,
+            "any_anomaly_percentage": 14.34,
+            "majority_anomalous_windows": 5452,
+            "majority_anomaly_percentage": 12.75,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W128_S1": {
+          "window_size": 128,
+          "stride": 1,
+          "train_windows": 135056,
+          "test_windows": 427490,
+          "est_train_mb": 2967.54,
+          "est_test_mb": 9393.09,
+          "label_stats": {
+            "total_windows": 427490,
+            "anomalous_windows_any": 63205,
+            "nominal_windows_any": 364285,
+            "any_anomaly_percentage": 14.79,
+            "majority_anomalous_windows": 54016,
+            "majority_anomaly_percentage": 12.64,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W128_S5": {
+          "window_size": 128,
+          "stride": 5,
+          "train_windows": 27012,
+          "test_windows": 85498,
+          "est_train_mb": 593.53,
+          "est_test_mb": 1878.62,
+          "label_stats": {
+            "total_windows": 85498,
+            "anomalous_windows_any": 12642,
+            "nominal_windows_any": 72856,
+            "any_anomaly_percentage": 14.79,
+            "majority_anomalous_windows": 10798,
+            "majority_anomaly_percentage": 12.63,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W128_S10": {
+          "window_size": 128,
+          "stride": 10,
+          "train_windows": 13506,
+          "test_windows": 42749,
+          "est_train_mb": 296.76,
+          "est_test_mb": 939.31,
+          "label_stats": {
+            "total_windows": 42749,
+            "anomalous_windows_any": 6315,
+            "nominal_windows_any": 36434,
+            "any_anomaly_percentage": 14.77,
+            "majority_anomalous_windows": 5396,
+            "majority_anomaly_percentage": 12.62,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.1279
+          }
+        },
+        "W256_S1": {
+          "window_size": 256,
+          "stride": 1,
+          "train_windows": 134928,
+          "test_windows": 427362,
+          "est_train_mb": 5929.45,
+          "est_test_mb": 18780.56,
+          "label_stats": {
+            "total_windows": 427362,
+            "anomalous_windows_any": 71715,
+            "nominal_windows_any": 355647,
+            "any_anomaly_percentage": 16.78,
+            "majority_anomalous_windows": 52335,
+            "majority_anomaly_percentage": 12.25,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.128
+          }
+        },
+        "W256_S5": {
+          "window_size": 256,
+          "stride": 5,
+          "train_windows": 26986,
+          "test_windows": 85473,
+          "est_train_mb": 1185.91,
+          "est_test_mb": 3756.14,
+          "label_stats": {
+            "total_windows": 85473,
+            "anomalous_windows_any": 14347,
+            "nominal_windows_any": 71126,
+            "any_anomaly_percentage": 16.79,
+            "majority_anomalous_windows": 10469,
+            "majority_anomaly_percentage": 12.25,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.128
+          }
+        },
+        "W256_S10": {
+          "window_size": 256,
+          "stride": 10,
+          "train_windows": 13493,
+          "test_windows": 42737,
+          "est_train_mb": 592.95,
+          "est_test_mb": 1878.09,
+          "label_stats": {
+            "total_windows": 42737,
+            "anomalous_windows_any": 7166,
+            "nominal_windows_any": 35571,
+            "any_anomaly_percentage": 16.77,
+            "majority_anomalous_windows": 5234,
+            "majority_anomaly_percentage": 12.25,
+            "majority_threshold": 0.5,
+            "mean_anomaly_fraction": 0.128
+          }
+        }
+      }
+    }
+  }
+}

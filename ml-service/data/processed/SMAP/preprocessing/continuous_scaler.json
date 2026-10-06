@@ -1,0 +1,16 @@
+{
+  "mission": "SMAP",
+  "scaler_type": "robust",
+  "continuous_channels": [
+    0
+  ],
+  "fit_split": "train",
+  "params": {
+    "center": [
+      -0.3734939759036142
+    ],
+    "scale": [
+      1.664938719400057
+    ]
+  }
+}

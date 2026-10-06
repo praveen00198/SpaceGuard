@@ -1,0 +1,84 @@
+# ==========================================
+# SpaceGuard AI Root .gitignore
+# ==========================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+**/.venv/
+ml-service/.venv/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Production Builds
+dist/
+**/dist/
+build/
+**/build/
+*.egg-info/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+!.env.example
+!frontend/.env.example
+*.pem
+*.key
+secrets/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Large Raw Data (Git-ignored per data policy)
+data/raw/
+data/raw/*
+!data/raw/README.md
+ml-service/data/raw/
+ml-service/data/raw/*
+!ml-service/data/raw/README.md
+data/interim/*
+!data/interim/README.md
+*.zip
+*.tar.gz
+*.npy
+
+# Processed & Temporary Artifacts
+logs/
+**/logs/
+*.log
+coverage/
+**/coverage/
+.nyc_output/
+htmlcov/
+.coverage
+.pytest_cache/
+**/.pytest_cache/
+
+# Local ML Model Binaries
+ml-service/models/*.pkl
+ml-service/models/*.joblib
+ml-service/models/*.h5
+ml-service/mlruns/
+
+# Database artifacts
+mongod.lock
+*.bson

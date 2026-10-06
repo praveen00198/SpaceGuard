@@ -1,0 +1,697 @@
+{
+  "datasetName": "NASA SMAP and MSL Telemetry Anomaly Benchmark",
+  "source": "NASA Jet Propulsion Laboratory (JPL) / Hundman et al., KDD 2018",
+  "authoritativeRepository": "https://github.com/khundman/telemanom",
+  "paperReference": "Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding (KDD 2018)",
+  "accessedAt": "2026-09-27T18:38:11.757991+00:00",
+  "license": "Public Domain (NASA / US Government Work) & Apache-2.0",
+  "format": "NumPy (.npy) multidimensional telemetry arrays + CSV ground truth labels",
+  "totalFiles": 7,
+  "totalSizeBytes": 171166310,
+  "totalSizeMB": 163.24,
+  "rawFiles": [
+    {
+      "filename": "labeled_anomalies.csv",
+      "relativePath": "raw/nasa_smap_msl/labeled_anomalies.csv",
+      "sizeBytes": 3956,
+      "sizeFormatted": "0.00 MB",
+      "sha256": "057ce2d6c8875982bf4e5404aefea14efdcbce413d80826d2b737c95b59b7539",
+      "sourceUrl": "https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv",
+      "description": "Authoritative ground-truth anomaly annotations by NASA JPL (Hundman et al., 2018)",
+      "source": "NASA JPL / khundman/telemanom",
+      "shape": null,
+      "dtype": null
+    },
+    {
+      "filename": "MSL_train.npy",
+      "relativePath": "raw/nasa_smap_msl/MSL_train.npy",
+      "sizeBytes": 25659608,
+      "sizeFormatted": "24.47 MB",
+      "sha256": "d767ecfc8ea344f7a6e78f815a84dc7923f600df1beb14359f3e73202148b058",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/MSL/MSL_train.npy",
+      "description": "Mars Science Laboratory nominal training telemetry array",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        58317,
+        55
+      ],
+      "dtype": "float64"
+    },
+    {
+      "filename": "MSL_test.npy",
+      "relativePath": "raw/nasa_smap_msl/MSL_test.npy",
+      "sizeBytes": 32440888,
+      "sizeFormatted": "30.94 MB",
+      "sha256": "8b479ebeeabb63ff636e8adeb095a7bcc46a0cdc7befa189b45b05b1e90c9425",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/MSL/MSL_test.npy",
+      "description": "Mars Science Laboratory evaluation test telemetry array",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        73729,
+        55
+      ],
+      "dtype": "float64"
+    },
+    {
+      "filename": "MSL_test_label.npy",
+      "relativePath": "raw/nasa_smap_msl/MSL_test_label.npy",
+      "sizeBytes": 73857,
+      "sizeFormatted": "0.07 MB",
+      "sha256": "23e120c30a645000f093ff5311de177601b8220ba3ca4281c6376883444f7b97",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/MSL/MSL_test_label.npy",
+      "description": "Mars Science Laboratory binary ground-truth anomaly mask for test split",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        73729
+      ],
+      "dtype": "bool"
+    },
+    {
+      "filename": "SMAP_train.npy",
+      "relativePath": "raw/nasa_smap_msl/SMAP_train.npy",
+      "sizeBytes": 27036728,
+      "sizeFormatted": "25.78 MB",
+      "sha256": "1c823bed59f32d45a2e6323ac79bf7755c80c2ff68a2d3d7322e4dee40a11010",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/SMAP/SMAP_train.npy",
+      "description": "Soil Moisture Active Passive satellite nominal training telemetry array",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        135183,
+        25
+      ],
+      "dtype": "float64"
+    },
+    {
+      "filename": "SMAP_test.npy",
+      "relativePath": "raw/nasa_smap_msl/SMAP_test.npy",
+      "sizeBytes": 85523528,
+      "sizeFormatted": "81.56 MB",
+      "sha256": "458c3b354b6a602b711241c29fb50518dddb0c1c9248d7d2e1691a9c218d4ac0",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/SMAP/SMAP_test.npy",
+      "description": "Soil Moisture Active Passive satellite evaluation test telemetry array",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        427617,
+        25
+      ],
+      "dtype": "float64"
+    },
+    {
+      "filename": "SMAP_test_label.npy",
+      "relativePath": "raw/nasa_smap_msl/SMAP_test_label.npy",
+      "sizeBytes": 427745,
+      "sizeFormatted": "0.41 MB",
+      "sha256": "55f94fcccc3ae35216cfd6ac5e0e2016ad9d08d5ff0aca9f09916c6501380e0f",
+      "sourceUrl": "https://huggingface.co/datasets/thuml/Time-Series-Library/resolve/main/SMAP/SMAP_test_label.npy",
+      "description": "Soil Moisture Active Passive satellite binary ground-truth anomaly mask for test split",
+      "source": "NASA JPL / thuml Time-Series-Library",
+      "shape": [
+        427617
+      ],
+      "dtype": "bool"
+    }
+  ],
+  "channelCount": 82,
+  "channels": [
+    {
+      "chan_id": "P-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[2149, 2349], [4536, 4844], [3539, 3779]]",
+      "class": "[contextual, contextual, contextual]",
+      "num_values": 8505
+    },
+    {
+      "chan_id": "S-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5300, 5747]]",
+      "class": "[point]",
+      "num_values": 7331
+    },
+    {
+      "chan_id": "E-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5000, 5030], [5610, 6086]]",
+      "class": "[contextual, contextual]",
+      "num_values": 8516
+    },
+    {
+      "chan_id": "E-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5598, 6995]]",
+      "class": "[point]",
+      "num_values": 8532
+    },
+    {
+      "chan_id": "E-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5094, 8306]]",
+      "class": "[point]",
+      "num_values": 8307
+    },
+    {
+      "chan_id": "E-4",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5450, 8261]]",
+      "class": "[point]",
+      "num_values": 8354
+    },
+    {
+      "chan_id": "E-5",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5600, 5920]]",
+      "class": "[point]",
+      "num_values": 8294
+    },
+    {
+      "chan_id": "E-6",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5610, 5675]]",
+      "class": "[point]",
+      "num_values": 8300
+    },
+    {
+      "chan_id": "E-7",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5394, 5674]]",
+      "class": "[point]",
+      "num_values": 8310
+    },
+    {
+      "chan_id": "E-8",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5400, 6022]]",
+      "class": "[point]",
+      "num_values": 8532
+    },
+    {
+      "chan_id": "E-9",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5550, 5900]]",
+      "class": "[point]",
+      "num_values": 8302
+    },
+    {
+      "chan_id": "E-10",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5000, 5050], [5601, 5871]]",
+      "class": "[contextual, contextual]",
+      "num_values": 8505
+    },
+    {
+      "chan_id": "E-11",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5000, 5050], [5614, 5857]]",
+      "class": "[contextual, contextual]",
+      "num_values": 8514
+    },
+    {
+      "chan_id": "E-12",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5610, 6141], [5000, 5050]]",
+      "class": "[contextual, contextual]",
+      "num_values": 8512
+    },
+    {
+      "chan_id": "E-13",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5309, 5410], [5600, 5640], [6449, 6569]]",
+      "class": "[contextual, contextual, contextual]",
+      "num_values": 8640
+    },
+    {
+      "chan_id": "A-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4690, 4774]]",
+      "class": "[point]",
+      "num_values": 8640
+    },
+    {
+      "chan_id": "D-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5250, 8508]]",
+      "class": "[point]",
+      "num_values": 8509
+    },
+    {
+      "chan_id": "P-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5350, 6575]]",
+      "class": "[point]",
+      "num_values": 8209
+    },
+    {
+      "chan_id": "P-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5401, 6736]]",
+      "class": "[point]",
+      "num_values": 8493
+    },
+    {
+      "chan_id": "D-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4319, 8536]]",
+      "class": "[point]",
+      "num_values": 8595
+    },
+    {
+      "chan_id": "D-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5225, 8500]]",
+      "class": "[point]",
+      "num_values": 8640
+    },
+    {
+      "chan_id": "D-4",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5225, 8472]]",
+      "class": "[point]",
+      "num_values": 8473
+    },
+    {
+      "chan_id": "A-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4450, 4560]]",
+      "class": "[contextual]",
+      "num_values": 7914
+    },
+    {
+      "chan_id": "A-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4575, 4760]]",
+      "class": "[contextual]",
+      "num_values": 8205
+    },
+    {
+      "chan_id": "A-4",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4550, 4660]]",
+      "class": "[contextual]",
+      "num_values": 8080
+    },
+    {
+      "chan_id": "G-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4770, 4890]]",
+      "class": "[contextual]",
+      "num_values": 8469
+    },
+    {
+      "chan_id": "G-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4030, 4070]]",
+      "class": "[point]",
+      "num_values": 7361
+    },
+    {
+      "chan_id": "D-5",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4800, 4850]]",
+      "class": "[point]",
+      "num_values": 7628
+    },
+    {
+      "chan_id": "D-6",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4870, 4950]]",
+      "class": "[point]",
+      "num_values": 7884
+    },
+    {
+      "chan_id": "D-7",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4940, 7641]]",
+      "class": "[point]",
+      "num_values": 7642
+    },
+    {
+      "chan_id": "F-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5392, 5492]]",
+      "class": "[point]",
+      "num_values": 8584
+    },
+    {
+      "chan_id": "P-4",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[950, 1080], [2150, 2350], [4770, 4880]]",
+      "class": "[point, point, point]",
+      "num_values": 7783
+    },
+    {
+      "chan_id": "G-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4200, 4250]]",
+      "class": "[point]",
+      "num_values": 7907
+    },
+    {
+      "chan_id": "T-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[2399, 3898], [6550, 6585]]",
+      "class": "[point, contextual]",
+      "num_values": 8612
+    },
+    {
+      "chan_id": "T-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[6840, 8624]]",
+      "class": "[point]",
+      "num_values": 8625
+    },
+    {
+      "chan_id": "D-8",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4370, 4420]]",
+      "class": "[point]",
+      "num_values": 7874
+    },
+    {
+      "chan_id": "D-9",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[6250, 7405]]",
+      "class": "[point]",
+      "num_values": 7406
+    },
+    {
+      "chan_id": "F-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5669, 8625]]",
+      "class": "[point]",
+      "num_values": 8626
+    },
+    {
+      "chan_id": "G-4",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4690, 4720]]",
+      "class": "[point]",
+      "num_values": 7632
+    },
+    {
+      "chan_id": "T-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[2098, 2180], [5200, 5300]]",
+      "class": "[point, point]",
+      "num_values": 8579
+    },
+    {
+      "chan_id": "D-11",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4270, 4330]]",
+      "class": "[point]",
+      "num_values": 7431
+    },
+    {
+      "chan_id": "D-12",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5178, 7917]]",
+      "class": "[point]",
+      "num_values": 7918
+    },
+    {
+      "chan_id": "B-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5060, 5130]]",
+      "class": "[point]",
+      "num_values": 8044
+    },
+    {
+      "chan_id": "G-6",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5600, 5700]]",
+      "class": "[point]",
+      "num_values": 8640
+    },
+    {
+      "chan_id": "G-7",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[3650, 3750], [5050, 5100], [7560, 7675]]",
+      "class": "[contextual, point, contextual]",
+      "num_values": 8029
+    },
+    {
+      "chan_id": "P-7",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4950, 6600]]",
+      "class": "[contextual]",
+      "num_values": 8071
+    },
+    {
+      "chan_id": "R-1",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4510, 4590]]",
+      "class": "[point]",
+      "num_values": 7244
+    },
+    {
+      "chan_id": "A-5",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[2750, 2800]]",
+      "class": "[point]",
+      "num_values": 4693
+    },
+    {
+      "chan_id": "A-6",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[1890, 1930]]",
+      "class": "[point]",
+      "num_values": 4453
+    },
+    {
+      "chan_id": "A-7",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[6200, 8600]]",
+      "class": "[contextual]",
+      "num_values": 8631
+    },
+    {
+      "chan_id": "D-13",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5070, 5230]]",
+      "class": "[point]",
+      "num_values": 7663
+    },
+    {
+      "chan_id": "P-2",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5300, 6420]]",
+      "class": "[point]",
+      "num_values": 8209
+    },
+    {
+      "chan_id": "A-8",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4569, 8374]]",
+      "class": "[contextual]",
+      "num_values": 8375
+    },
+    {
+      "chan_id": "A-9",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[4569, 8433]]",
+      "class": "[contextual]",
+      "num_values": 8434
+    },
+    {
+      "chan_id": "F-3",
+      "spacecraft": "SMAP",
+      "anomaly_sequences": "[[5600, 5640]]",
+      "class": "[contextual]",
+      "num_values": 8376
+    },
+    {
+      "chan_id": "M-6",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1850, 2030]]",
+      "class": "[point]",
+      "num_values": 2049
+    },
+    {
+      "chan_id": "M-1",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1110, 2250]]",
+      "class": "[contextual]",
+      "num_values": 2277
+    },
+    {
+      "chan_id": "M-2",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1110, 2250]]",
+      "class": "[contextual]",
+      "num_values": 2277
+    },
+    {
+      "chan_id": "S-2",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[900, 910]]",
+      "class": "[point]",
+      "num_values": 1827
+    },
+    {
+      "chan_id": "P-10",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[4590, 4720]]",
+      "class": "[point]",
+      "num_values": 6100
+    },
+    {
+      "chan_id": "T-4",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1172, 1240]]",
+      "class": "[point]",
+      "num_values": 2217
+    },
+    {
+      "chan_id": "T-5",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1200, 1225]]",
+      "class": "[point]",
+      "num_values": 2218
+    },
+    {
+      "chan_id": "F-7",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1250, 1450], [2670, 2790], [3325, 3425]]",
+      "class": "[contextual, contextual, contextual]",
+      "num_values": 5054
+    },
+    {
+      "chan_id": "M-3",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1250, 1500]]",
+      "class": "[contextual]",
+      "num_values": 2127
+    },
+    {
+      "chan_id": "M-4",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1250, 1500]]",
+      "class": "[contextual]",
+      "num_values": 2038
+    },
+    {
+      "chan_id": "M-5",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1250, 1550]]",
+      "class": "[contextual]",
+      "num_values": 2303
+    },
+    {
+      "chan_id": "P-15",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1390, 1410]]",
+      "class": "[point]",
+      "num_values": 2856
+    },
+    {
+      "chan_id": "C-1",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[550, 750], [2100, 2210]]",
+      "class": "[point, contextual]",
+      "num_values": 2264
+    },
+    {
+      "chan_id": "C-2",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[290, 390], [1540, 1575]]",
+      "class": "[point, contextual]",
+      "num_values": 2051
+    },
+    {
+      "chan_id": "T-12",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[630, 750]]",
+      "class": "[contextual]",
+      "num_values": 2430
+    },
+    {
+      "chan_id": "T-13",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[690, 790], [1900, 2050]]",
+      "class": "[contextual, contextual]",
+      "num_values": 2430
+    },
+    {
+      "chan_id": "F-4",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[2700, 2770]]",
+      "class": "[point]",
+      "num_values": 3422
+    },
+    {
+      "chan_id": "F-5",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[3550, 3700]]",
+      "class": "[point]",
+      "num_values": 3922
+    },
+    {
+      "chan_id": "D-14",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1630, 1650], [1800, 2000]]",
+      "class": "[point, point]",
+      "num_values": 2625
+    },
+    {
+      "chan_id": "T-9",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[780, 810], [890, 970]]",
+      "class": "[point, point]",
+      "num_values": 1096
+    },
+    {
+      "chan_id": "P-14",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[4575, 4755]]",
+      "class": "[point]",
+      "num_values": 6100
+    },
+    {
+      "chan_id": "T-8",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[870, 930], [1330, 1370]]",
+      "class": "[contextual, contextual]",
+      "num_values": 1519
+    },
+    {
+      "chan_id": "P-11",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1778, 1898], [1238, 1344]]",
+      "class": "[point, point]",
+      "num_values": 3535
+    },
+    {
+      "chan_id": "D-15",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1500, 2140]]",
+      "class": "[point]",
+      "num_values": 2158
+    },
+    {
+      "chan_id": "D-16",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[600, 1250]]",
+      "class": "[contextual]",
+      "num_values": 2191
+    },
+    {
+      "chan_id": "M-7",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[940, 1040]]",
+      "class": "[point]",
+      "num_values": 2156
+    },
+    {
+      "chan_id": "F-8",
+      "spacecraft": "MSL",
+      "anomaly_sequences": "[[1950, 2486]]",
+      "class": "[contextual]",
+      "num_values": 2487
+    }
+  ],
+  "notes": [
+    "Raw original files are stored immutably in ml-service/data/raw/nasa_smap_msl/.",
+    "NO preprocessing or modification has been applied to raw files.",
+    "Data is for unsupervised anomaly detection methodology benchmarking only.",
+    "This research dataset is segregated from production SpaceGuard telemetry."
+  ]
+}

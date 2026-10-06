@@ -1,0 +1,42 @@
+# SpaceGuard AI — ML Phase 3A Preprocessing & Feature Engineering Configuration
+# Note: These values represent candidate experimentation configurations, not validated production constants.
+
+variance_filter:
+  threshold: 1.0e-8
+  fit_split: "train"
+
+scalers:
+  default_continuous: "robust"
+  candidates:
+    - "passthrough"
+    - "robust"
+    - "minmax"
+  fit_split: "train"
+
+temporal_features:
+  deltas:
+    orders: [1]
+    fill_first: 0.0
+  rolling:
+    windows: [10, 30, 100]
+    metrics: ["mean", "std", "min", "max"]
+    causal: true
+  ema:
+    spans: [10, 30, 100]
+    divergences:
+      - [10, 30]
+      - [30, 100]
+    causal: true
+
+command_interactions:
+  aggregate_count: true
+  continuous_interaction: true
+  delta_interaction: true
+
+windowing:
+  candidate_window_sizes: [50, 100, 128, 256]
+  candidate_strides: [1, 5, 10]
+  default_window_size: 128
+  default_stride: 10
+  labeling:
+    majority_threshold: 0.5

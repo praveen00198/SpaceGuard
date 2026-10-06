@@ -1,0 +1,2152 @@
+[
+  {
+    "experiment_id": "EXP_MSL_E001_M0",
+    "mission": "MSL",
+    "model_name": "M0_SimpleStatistical",
+    "feature_group": "raw_base",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "mean": 0.12878909707069397,
+      "std": 0.4597608745098114,
+      "continuous_channel_idx": 0,
+      "fit_split": "train",
+      "train_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 1.3124247789382935,
+    "random_seed": 42,
+    "precision": 0.08256487239974265,
+    "recall": 0.22392400155098877,
+    "f1_score": 0.12064553193711808,
+    "pr_auc": 0.14668660352477333,
+    "roc_auc": 0.47236895402505963,
+    "adjusted_f1": 0.40049784415699874,
+    "event_recall": 0.6956521739130435,
+    "mean_delay": 33.9375,
+    "median_delay": 11.5,
+    "false_alarm_events": 226,
+    "training_time_s": 0.0068,
+    "inference_time_s": 0.0035,
+    "samples_per_sec": 14891511.34,
+    "timestamp_utc": "2026-10-05T14:49:39.203366+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 1.312425,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4602,
+        "metadata": {
+          "validation_precision": 0.5833,
+          "validation_recall": 0.38,
+          "validation_f1": 0.4602,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E002_M1",
+    "mission": "MSL",
+    "model_name": "M1_TemporalStatistical",
+    "feature_group": "temporal_stat",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "delta_scale": 0.15278102457523346,
+      "rolling_scale": 0.2822642922401428,
+      "ema_scale": 0.08005170524120331,
+      "weights": [
+        0.35,
+        0.4,
+        0.25
+      ],
+      "fit_split": "train",
+      "train_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.4883135284200461,
+    "random_seed": 42,
+    "precision": 0.22830027724461505,
+    "recall": 0.41508336564559906,
+    "f1_score": 0.2945789763346175,
+    "pr_auc": 0.2404341606336975,
+    "roc_auc": 0.7920056004440049,
+    "adjusted_f1": 0.567134847696665,
+    "event_recall": 0.9130434782608695,
+    "mean_delay": 10.761904761904763,
+    "median_delay": 7.0,
+    "false_alarm_events": 653,
+    "training_time_s": 0.0045,
+    "inference_time_s": 0.0058,
+    "samples_per_sec": 8841284.8,
+    "timestamp_utc": "2026-10-05T14:49:39.511391+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.488314,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3154,
+        "metadata": {
+          "validation_precision": 0.2312,
+          "validation_recall": 0.4962,
+          "validation_f1": 0.3154,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E003_M2",
+    "mission": "MSL",
+    "model_name": "M2_IsolationForest_Raw",
+    "feature_group": "raw_base",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_base",
+      "selected_features_count": 1,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.157528432880209,
+      "score_max": 0.29289132781002736
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.13139276872409725,
+    "random_seed": 42,
+    "precision": 0.23900709219858157,
+    "recall": 0.06533540131834044,
+    "f1_score": 0.10261875761266748,
+    "pr_auc": 0.2099719684604634,
+    "roc_auc": 0.6787950508824594,
+    "adjusted_f1": 0.7024156601416077,
+    "event_recall": 0.30434782608695654,
+    "mean_delay": 126.28571428571429,
+    "median_delay": 80.0,
+    "false_alarm_events": 93,
+    "training_time_s": 2.4549,
+    "inference_time_s": 0.4343,
+    "samples_per_sec": 118832.94,
+    "timestamp_utc": "2026-10-05T14:49:42.842044+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.131393,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.364,
+        "metadata": {
+          "validation_precision": 0.7013,
+          "validation_recall": 0.2458,
+          "validation_f1": 0.364,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E004_M3_All",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.15393202834017117,
+      "score_max": 0.16866679766113213
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.04853043332695961,
+    "random_seed": 42,
+    "precision": 0.18156480191120844,
+    "recall": 0.35362543621558745,
+    "f1_score": 0.23993685872138912,
+    "pr_auc": 0.21632154780245247,
+    "roc_auc": 0.7294736681445823,
+    "adjusted_f1": 0.5564785845290754,
+    "event_recall": 1.0,
+    "mean_delay": 10.434782608695652,
+    "median_delay": 5.0,
+    "false_alarm_events": 3438,
+    "training_time_s": 1.3692,
+    "inference_time_s": 0.417,
+    "samples_per_sec": 123757.3,
+    "timestamp_utc": "2026-10-05T14:49:45.034323+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.04853,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3425,
+        "metadata": {
+          "validation_precision": 0.2761,
+          "validation_recall": 0.4509,
+          "validation_f1": 0.3425,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E005_M3_Delta",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_raw_plus_delta",
+    "feature_group": "raw_plus_delta",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_delta",
+      "selected_features_count": 2,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.17126113083321337,
+      "score_max": 0.2654804565989143
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.017744469512630277,
+    "random_seed": 42,
+    "precision": 0.17044534412955464,
+    "recall": 0.16324156649864288,
+    "f1_score": 0.16676569617746087,
+    "pr_auc": 0.17253067487547774,
+    "roc_auc": 0.6729150629653672,
+    "adjusted_f1": 0.71569307617594,
+    "event_recall": 1.0,
+    "mean_delay": 16.26086956521739,
+    "median_delay": 9.0,
+    "false_alarm_events": 1293,
+    "training_time_s": 0.9265,
+    "inference_time_s": 0.3645,
+    "samples_per_sec": 141605.39,
+    "timestamp_utc": "2026-10-05T14:49:46.618345+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.017744,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3967,
+        "metadata": {
+          "validation_precision": 0.3573,
+          "validation_recall": 0.4459,
+          "validation_f1": 0.3967,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E006_M3_Rolling",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_raw_plus_rolling",
+    "feature_group": "raw_plus_rolling",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_rolling",
+      "selected_features_count": 13,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.13952057036463272,
+      "score_max": 0.2462109556000006
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.06062234193086624,
+    "random_seed": 42,
+    "precision": 0.1831453218314532,
+    "recall": 0.2140364482357503,
+    "f1_score": 0.19738959413552654,
+    "pr_auc": 0.23358046548251446,
+    "roc_auc": 0.7809746111107212,
+    "adjusted_f1": 0.6259625212947189,
+    "event_recall": 0.6956521739130435,
+    "mean_delay": 36.8125,
+    "median_delay": 27.5,
+    "false_alarm_events": 130,
+    "training_time_s": 0.9125,
+    "inference_time_s": 0.3685,
+    "samples_per_sec": 140057.98,
+    "timestamp_utc": "2026-10-05T14:49:48.140822+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.060622,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3269,
+        "metadata": {
+          "validation_precision": 0.3856,
+          "validation_recall": 0.2837,
+          "validation_f1": 0.3269,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E007_M3_EMA",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_raw_plus_ema",
+    "feature_group": "raw_plus_ema",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_ema",
+      "selected_features_count": 6,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.15187563289217315,
+      "score_max": 0.2439160956138856
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.024008798390457636,
+    "random_seed": 42,
+    "precision": 0.2543911007025761,
+    "recall": 0.33695230709577356,
+    "f1_score": 0.2899082568807339,
+    "pr_auc": 0.2513001662629896,
+    "roc_auc": 0.7821908316324546,
+    "adjusted_f1": 0.6473149492017416,
+    "event_recall": 0.9130434782608695,
+    "mean_delay": 16.61904761904762,
+    "median_delay": 9.0,
+    "false_alarm_events": 351,
+    "training_time_s": 3.4162,
+    "inference_time_s": 1.4093,
+    "samples_per_sec": 36622.5,
+    "timestamp_utc": "2026-10-05T14:49:53.890903+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.024009,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3772,
+        "metadata": {
+          "validation_precision": 0.3256,
+          "validation_recall": 0.4482,
+          "validation_f1": 0.3772,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E008_M4_a25",
+    "mission": "MSL",
+    "model_name": "M4_Hybrid_a25",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.25,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.25",
+      "stat_range": [
+        0.0,
+        3.254117488861084
+      ],
+      "ml_range": [
+        -0.15393203496932983,
+        0.0672839805483818
+      ],
+      "fit_split": "train",
+      "train_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.3769785953483198,
+    "random_seed": 42,
+    "precision": 0.19836670179135932,
+    "recall": 0.43796044978673904,
+    "f1_score": 0.2730569321890487,
+    "pr_auc": 0.22911458714072935,
+    "roc_auc": 0.7414785537441367,
+    "adjusted_f1": 0.5305219850861405,
+    "event_recall": 1.0,
+    "mean_delay": 8.217391304347826,
+    "median_delay": 5.0,
+    "false_alarm_events": 3215,
+    "training_time_s": 2.9621,
+    "inference_time_s": 0.7393,
+    "samples_per_sec": 69811.86,
+    "timestamp_utc": "2026-10-05T14:49:58.220796+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.376979,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3652,
+        "metadata": {
+          "validation_precision": 0.2731,
+          "validation_recall": 0.551,
+          "validation_f1": 0.3652,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E008_M4_a50",
+    "mission": "MSL",
+    "model_name": "M4_Hybrid_a50",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.5,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.5",
+      "stat_range": [
+        0.0,
+        3.254117488861084
+      ],
+      "ml_range": [
+        -0.15393203496932983,
+        0.0672839805483818
+      ],
+      "fit_split": "train",
+      "train_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.2802061388360129,
+    "random_seed": 42,
+    "precision": 0.2201992442459636,
+    "recall": 0.49709189608375337,
+    "f1_score": 0.3052017616950363,
+    "pr_auc": 0.23990600755638633,
+    "roc_auc": 0.7553776748852883,
+    "adjusted_f1": 0.5318622396370385,
+    "event_recall": 1.0,
+    "mean_delay": 8.956521739130435,
+    "median_delay": 5.0,
+    "false_alarm_events": 2544,
+    "training_time_s": 4.2985,
+    "inference_time_s": 0.7702,
+    "samples_per_sec": 67009.54,
+    "timestamp_utc": "2026-10-05T14:50:04.267043+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.280206,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3785,
+        "metadata": {
+          "validation_precision": 0.2725,
+          "validation_recall": 0.6196,
+          "validation_f1": 0.3785,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_E008_M4_a75",
+    "mission": "MSL",
+    "model_name": "M4_Hybrid_a75",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.75,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.75",
+      "stat_range": [
+        0.0,
+        3.254117488861084
+      ],
+      "ml_range": [
+        -0.15393203496932983,
+        0.0672839805483818
+      ],
+      "fit_split": "train",
+      "train_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.20048534897511655,
+    "random_seed": 42,
+    "precision": 0.23910802960742059,
+    "recall": 0.4947654129507561,
+    "f1_score": 0.32240540711262716,
+    "pr_auc": 0.24472975840692573,
+    "roc_auc": 0.7731430702988166,
+    "adjusted_f1": 0.5395655760241957,
+    "event_recall": 0.9130434782608695,
+    "mean_delay": 11.476190476190476,
+    "median_delay": 7.0,
+    "false_alarm_events": 1127,
+    "training_time_s": 4.5423,
+    "inference_time_s": 0.8526,
+    "samples_per_sec": 60532.31,
+    "timestamp_utc": "2026-10-05T14:50:10.337250+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.200485,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3519,
+        "metadata": {
+          "validation_precision": 0.2479,
+          "validation_recall": 0.6062,
+          "validation_f1": 0.3519,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_WIN_W50",
+    "mission": "MSL",
+    "model_name": "M3_Window_W50",
+    "feature_group": "window_pooled",
+    "window_size": 50,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 4078,
+      "score_min": -0.14529371844997696,
+      "score_max": 0.11588714049167459
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.05494482007705503,
+    "random_seed": 42,
+    "precision": 0.16144814090019569,
+    "recall": 0.26232114467408585,
+    "f1_score": 0.19987886129618412,
+    "pr_auc": 0.21435193423315693,
+    "roc_auc": 0.6962710736094649,
+    "adjusted_f1": 0.5402750491159135,
+    "event_recall": 0.7391304347826086,
+    "mean_delay": 6.117647058823529,
+    "median_delay": 1.0,
+    "false_alarm_events": 136,
+    "training_time_s": 4.2997,
+    "inference_time_s": 0.3404,
+    "samples_per_sec": 15150.76,
+    "timestamp_utc": "2026-10-05T14:50:15.838357+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.054945,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3922,
+        "metadata": {
+          "validation_precision": 0.3252,
+          "validation_recall": 0.4938,
+          "validation_f1": 0.3922,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 5157,
+      "anomaly_samples": 629
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_WIN_W100",
+    "mission": "MSL",
+    "model_name": "M3_Window_W100",
+    "feature_group": "window_pooled",
+    "window_size": 100,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 4073,
+      "score_min": -0.1405215971527708,
+      "score_max": 0.12115039354448431
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.05288323573722984,
+    "random_seed": 42,
+    "precision": 0.19084628670120898,
+    "recall": 0.29784366576819404,
+    "f1_score": 0.23263157894736838,
+    "pr_auc": 0.24454957503898977,
+    "roc_auc": 0.6600535721925788,
+    "adjusted_f1": 0.5022301516503122,
+    "event_recall": 0.6363636363636364,
+    "mean_delay": 5.428571428571429,
+    "median_delay": 0.5,
+    "false_alarm_events": 100,
+    "training_time_s": 1.3112,
+    "inference_time_s": 0.179,
+    "samples_per_sec": 28774.49,
+    "timestamp_utc": "2026-10-05T14:50:20.347548+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.052883,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4609,
+        "metadata": {
+          "validation_precision": 0.3963,
+          "validation_recall": 0.5506,
+          "validation_f1": 0.4609,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 5152,
+      "anomaly_samples": 742
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_WIN_W128",
+    "mission": "MSL",
+    "model_name": "M3_Window_W128",
+    "feature_group": "window_pooled",
+    "window_size": 128,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 4070,
+      "score_min": -0.1386453939091426,
+      "score_max": 0.11894653817546941
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.0689715059871475,
+    "random_seed": 42,
+    "precision": 0.19178921568627452,
+    "recall": 0.38930348258706465,
+    "f1_score": 0.2569786535303777,
+    "pr_auc": 0.24785041481798697,
+    "roc_auc": 0.6129882806909068,
+    "adjusted_f1": 0.49485997873094645,
+    "event_recall": 0.8181818181818182,
+    "mean_delay": 2.5555555555555554,
+    "median_delay": 0.0,
+    "false_alarm_events": 112,
+    "training_time_s": 1.4292,
+    "inference_time_s": 0.2587,
+    "samples_per_sec": 19904.71,
+    "timestamp_utc": "2026-10-05T14:50:24.334262+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.068972,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4648,
+        "metadata": {
+          "validation_precision": 0.342,
+          "validation_recall": 0.7255,
+          "validation_f1": 0.4648,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 5149,
+      "anomaly_samples": 804
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_WIN_W256",
+    "mission": "MSL",
+    "model_name": "M3_Window_W256",
+    "feature_group": "window_pooled",
+    "window_size": 256,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 4057,
+      "score_min": -0.1367140550244933,
+      "score_max": 0.11317265773216723
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.04136211797595024,
+    "random_seed": 42,
+    "precision": 0.26603119584055457,
+    "recall": 0.28638059701492535,
+    "f1_score": 0.27583108715184185,
+    "pr_auc": 0.3471600992032334,
+    "roc_auc": 0.5958330425872604,
+    "adjusted_f1": 0.5711094564408041,
+    "event_recall": 0.6818181818181818,
+    "mean_delay": 11.066666666666666,
+    "median_delay": 5.0,
+    "false_alarm_events": 44,
+    "training_time_s": 1.2728,
+    "inference_time_s": 1.2371,
+    "samples_per_sec": 4151.49,
+    "timestamp_utc": "2026-10-05T14:50:30.329125+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.041362,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.5503,
+        "metadata": {
+          "validation_precision": 0.5295,
+          "validation_recall": 0.5727,
+          "validation_f1": 0.5503,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 5136,
+      "anomaly_samples": 1072
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_SEED_s123",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 123,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.15448857030334334,
+      "score_max": 0.1744314736406729
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.059627700720697334,
+    "random_seed": 123,
+    "precision": 0.1847640704945992,
+    "recall": 0.3780535091120589,
+    "f1_score": 0.24821792260692466,
+    "pr_auc": 0.22153151661489195,
+    "roc_auc": 0.7304693649128752,
+    "adjusted_f1": 0.5452431289640592,
+    "event_recall": 1.0,
+    "mean_delay": 8.391304347826088,
+    "median_delay": 2.0,
+    "false_alarm_events": 3640,
+    "training_time_s": 10.5133,
+    "inference_time_s": 1.4321,
+    "samples_per_sec": 36039.0,
+    "timestamp_utc": "2026-10-05T14:50:46.009863+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.059628,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3216,
+        "metadata": {
+          "validation_precision": 0.2544,
+          "validation_recall": 0.4371,
+          "validation_f1": 0.3216,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_SEED_s456",
+    "mission": "MSL",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 456,
+      "feature_group": "all",
+      "selected_features_count": 54,
+      "fit_split": "train",
+      "train_samples": 40821,
+      "score_min": -0.14902933081503045,
+      "score_max": 0.1747241707777073
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.04085606104933252,
+    "random_seed": 456,
+    "precision": 0.19531319611512074,
+    "recall": 0.42497091896083755,
+    "f1_score": 0.26762712899090413,
+    "pr_auc": 0.22506049979414927,
+    "roc_auc": 0.7438450340267712,
+    "adjusted_f1": 0.533209283092986,
+    "event_recall": 1.0,
+    "mean_delay": 6.869565217391305,
+    "median_delay": 2.0,
+    "false_alarm_events": 2944,
+    "training_time_s": 3.8081,
+    "inference_time_s": 0.4365,
+    "samples_per_sec": 118246.66,
+    "timestamp_utc": "2026-10-05T14:50:52.534308+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.040856,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3527,
+        "metadata": {
+          "validation_precision": 0.2765,
+          "validation_recall": 0.487,
+          "validation_f1": 0.3527,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E001_M0",
+    "mission": "SMAP",
+    "model_name": "M0_SimpleStatistical",
+    "feature_group": "raw_base",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "mean": 0.004459111485630274,
+      "std": 0.437926322221756,
+      "continuous_channel_idx": 0,
+      "fit_split": "train",
+      "train_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.9269710183143616,
+    "random_seed": 42,
+    "precision": 0.10264568848851745,
+    "recall": 0.32843023832347207,
+    "f1_score": 0.1564083997103548,
+    "pr_auc": 0.08212887344410201,
+    "roc_auc": 0.41566919837494176,
+    "adjusted_f1": 0.4092687167228078,
+    "event_recall": 0.9803921568627451,
+    "mean_delay": 103.64,
+    "median_delay": 10.5,
+    "false_alarm_events": 2812,
+    "training_time_s": 0.015,
+    "inference_time_s": 0.3275,
+    "samples_per_sec": 914072.06,
+    "timestamp_utc": "2026-10-05T14:51:56.120745+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.926971,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.2915,
+        "metadata": {
+          "validation_precision": 0.2437,
+          "validation_recall": 0.3624,
+          "validation_f1": 0.2915,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E002_M1",
+    "mission": "SMAP",
+    "model_name": "M1_TemporalStatistical",
+    "feature_group": "temporal_stat",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "delta_scale": 0.10317656397819519,
+      "rolling_scale": 0.34279346466064453,
+      "ema_scale": 0.10490979254245758,
+      "weights": [
+        0.35,
+        0.4,
+        0.25
+      ],
+      "fit_split": "train",
+      "train_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.001882829237729311,
+    "random_seed": 42,
+    "precision": 0.1190912071697907,
+    "recall": 0.8644101411430272,
+    "f1_score": 0.20934114096565418,
+    "pr_auc": 0.11141857931001024,
+    "roc_auc": 0.5644952562603059,
+    "adjusted_f1": 0.23826606758209518,
+    "event_recall": 1.0,
+    "mean_delay": 13.529411764705882,
+    "median_delay": 0.0,
+    "false_alarm_events": 359,
+    "training_time_s": 0.0142,
+    "inference_time_s": 0.2983,
+    "samples_per_sec": 1003599.23,
+    "timestamp_utc": "2026-10-05T14:51:58.788296+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.001883,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3785,
+        "metadata": {
+          "validation_precision": 0.2613,
+          "validation_recall": 0.6858,
+          "validation_f1": 0.3785,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E003_M2",
+    "mission": "SMAP",
+    "model_name": "M2_IsolationForest_Raw",
+    "feature_group": "raw_base",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_base",
+      "selected_features_count": 1,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.13688814059758658,
+      "score_max": 0.1832637206078488
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.05010606348514557,
+    "random_seed": 42,
+    "precision": 0.1431608044157139,
+    "recall": 0.5409711433576835,
+    "f1_score": 0.22640621973826192,
+    "pr_auc": 0.15852853561416344,
+    "roc_auc": 0.6434326066326117,
+    "adjusted_f1": 0.3573968136014503,
+    "event_recall": 0.7450980392156863,
+    "mean_delay": 8.710526315789474,
+    "median_delay": 0.0,
+    "false_alarm_events": 8378,
+    "training_time_s": 3.4918,
+    "inference_time_s": 8.1706,
+    "samples_per_sec": 36635.2,
+    "timestamp_utc": "2026-10-05T14:52:16.680692+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.050106,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3669,
+        "metadata": {
+          "validation_precision": 0.2817,
+          "validation_recall": 0.526,
+          "validation_f1": 0.3669,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E004_M3_All",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.1517938616434139,
+      "score_max": 0.19792012844353213
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.04605738818645477,
+    "random_seed": 42,
+    "precision": 0.1323830473037721,
+    "recall": 0.40184444517899054,
+    "f1_score": 0.19915632551091456,
+    "pr_auc": 0.12150084709852838,
+    "roc_auc": 0.5915638026008068,
+    "adjusted_f1": 0.4316276813548198,
+    "event_recall": 1.0,
+    "mean_delay": 23.470588235294116,
+    "median_delay": 9.0,
+    "false_alarm_events": 7408,
+    "training_time_s": 3.8374,
+    "inference_time_s": 8.0295,
+    "samples_per_sec": 37279.01,
+    "timestamp_utc": "2026-10-05T14:52:34.781754+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.046057,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3038,
+        "metadata": {
+          "validation_precision": 0.2906,
+          "validation_recall": 0.3183,
+          "validation_f1": 0.3038,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E005_M3_Delta",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_raw_plus_delta",
+    "feature_group": "raw_plus_delta",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_delta",
+      "selected_features_count": 2,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.16553950965882175,
+      "score_max": 0.28105250604548593
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.08391054719686508,
+    "random_seed": 42,
+    "precision": 0.11761273897362155,
+    "recall": 0.6596701153604602,
+    "f1_score": 0.19963288435857296,
+    "pr_auc": 0.12891024361373757,
+    "roc_auc": 0.6102839127180228,
+    "adjusted_f1": 0.2878044835967712,
+    "event_recall": 1.0,
+    "mean_delay": 13.392156862745098,
+    "median_delay": 0.0,
+    "false_alarm_events": 8448,
+    "training_time_s": 2.3032,
+    "inference_time_s": 3.702,
+    "samples_per_sec": 80855.82,
+    "timestamp_utc": "2026-10-05T14:52:43.393788+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.083911,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3228,
+        "metadata": {
+          "validation_precision": 0.2228,
+          "validation_recall": 0.5857,
+          "validation_f1": 0.3228,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E006_M3_Rolling",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_raw_plus_rolling",
+    "feature_group": "raw_plus_rolling",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_rolling",
+      "selected_features_count": 13,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.14279602477371062,
+      "score_max": 0.14432709242496167
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.005899765528738499,
+    "random_seed": 42,
+    "precision": 0.12746717089551782,
+    "recall": 0.6863121012792119,
+    "f1_score": 0.21500243344275197,
+    "pr_auc": 0.1427593024949591,
+    "roc_auc": 0.6379467492133181,
+    "adjusted_f1": 0.2986004184926369,
+    "event_recall": 1.0,
+    "mean_delay": 19.470588235294116,
+    "median_delay": 9.0,
+    "false_alarm_events": 3142,
+    "training_time_s": 2.0345,
+    "inference_time_s": 2.6371,
+    "samples_per_sec": 113507.19,
+    "timestamp_utc": "2026-10-05T14:52:49.681562+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.0059,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3662,
+        "metadata": {
+          "validation_precision": 0.249,
+          "validation_recall": 0.6917,
+          "validation_f1": 0.3662,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E007_M3_EMA",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_raw_plus_ema",
+    "feature_group": "raw_plus_ema",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "raw_plus_ema",
+      "selected_features_count": 6,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.1486028315898631,
+      "score_max": 0.19488247632121514
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.05004299059510231,
+    "random_seed": 42,
+    "precision": 0.11289722135764722,
+    "recall": 0.6114765477803854,
+    "f1_score": 0.19060326618927415,
+    "pr_auc": 0.14727926754234816,
+    "roc_auc": 0.5893986888142855,
+    "adjusted_f1": 0.29391248591303,
+    "event_recall": 1.0,
+    "mean_delay": 15.96078431372549,
+    "median_delay": 0.0,
+    "false_alarm_events": 4096,
+    "training_time_s": 1.7206,
+    "inference_time_s": 2.4056,
+    "samples_per_sec": 124433.57,
+    "timestamp_utc": "2026-10-05T14:52:55.352196+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.050043,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.285,
+        "metadata": {
+          "validation_precision": 0.1968,
+          "validation_recall": 0.5164,
+          "validation_f1": 0.285,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E008_M4_a25",
+    "mission": "SMAP",
+    "model_name": "M4_Hybrid_a25",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.25,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.25",
+      "stat_range": [
+        0.0,
+        2.14901065826416
+      ],
+      "ml_range": [
+        -0.15179386734962463,
+        0.15117724239826202
+      ],
+      "fit_split": "train",
+      "train_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.1989160180091858,
+    "random_seed": 42,
+    "precision": 0.11307530937447025,
+    "recall": 0.7055498628235216,
+    "f1_score": 0.19491281657923215,
+    "pr_auc": 0.11789450325520237,
+    "roc_auc": 0.5848463643462088,
+    "adjusted_f1": 0.26545985811371087,
+    "event_recall": 1.0,
+    "mean_delay": 12.549019607843137,
+    "median_delay": 0.0,
+    "false_alarm_events": 7109,
+    "training_time_s": 2.505,
+    "inference_time_s": 2.7611,
+    "samples_per_sec": 108408.81,
+    "timestamp_utc": "2026-10-05T14:53:05.204583+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.198916,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.2841,
+        "metadata": {
+          "validation_precision": 0.188,
+          "validation_recall": 0.581,
+          "validation_f1": 0.2841,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E008_M4_a50",
+    "mission": "SMAP",
+    "model_name": "M4_Hybrid_a50",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.5,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.5",
+      "stat_range": [
+        0.0,
+        2.14901065826416
+      ],
+      "ml_range": [
+        -0.15179386734962463,
+        0.15117724239826202
+      ],
+      "fit_split": "train",
+      "train_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.1396847575752422,
+    "random_seed": 42,
+    "precision": 0.11648195676881293,
+    "recall": 0.7215813307771131,
+    "f1_score": 0.20058438694501618,
+    "pr_auc": 0.11596491249026497,
+    "roc_auc": 0.5792294398612242,
+    "adjusted_f1": 0.2676226408417999,
+    "event_recall": 1.0,
+    "mean_delay": 13.235294117647058,
+    "median_delay": 0.0,
+    "false_alarm_events": 7055,
+    "training_time_s": 3.2954,
+    "inference_time_s": 3.1719,
+    "samples_per_sec": 94368.98,
+    "timestamp_utc": "2026-10-05T14:53:19.115329+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.139685,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.2743,
+        "metadata": {
+          "validation_precision": 0.1922,
+          "validation_recall": 0.4788,
+          "validation_f1": 0.2743,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_E008_M4_a75",
+    "mission": "SMAP",
+    "model_name": "M4_Hybrid_a75",
+    "feature_group": "hybrid_all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.75,
+      "statistical_model": "M1_TemporalStatistical",
+      "ml_model": "M3_IF_sub_alpha_0.75",
+      "stat_range": [
+        0.0,
+        2.14901065826416
+      ],
+      "ml_range": [
+        -0.15179386734962463,
+        0.15117724239826202
+      ],
+      "fit_split": "train",
+      "train_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.07237482815980911,
+    "random_seed": 42,
+    "precision": 0.1187786851046075,
+    "recall": 0.7904340065448054,
+    "f1_score": 0.20652310030788895,
+    "pr_auc": 0.1140886251993416,
+    "roc_auc": 0.5748360156970334,
+    "adjusted_f1": 0.2543155806436699,
+    "event_recall": 1.0,
+    "mean_delay": 12.450980392156863,
+    "median_delay": 0.0,
+    "false_alarm_events": 5290,
+    "training_time_s": 4.0518,
+    "inference_time_s": 6.6352,
+    "samples_per_sec": 45112.58,
+    "timestamp_utc": "2026-10-05T14:53:32.821384+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.072375,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.2842,
+        "metadata": {
+          "validation_precision": 0.1963,
+          "validation_recall": 0.515,
+          "validation_f1": 0.2842,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_WIN_W50",
+    "mission": "SMAP",
+    "model_name": "M3_Window_W50",
+    "feature_group": "window_pooled",
+    "window_size": 50,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 9458,
+      "score_min": -0.1335143839510156,
+      "score_max": 0.17689350856039276
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.04421682433057765,
+    "random_seed": 42,
+    "precision": 0.12177381511027686,
+    "recall": 0.47541984732824427,
+    "f1_score": 0.19388581034804808,
+    "pr_auc": 0.1626468763500689,
+    "roc_auc": 0.5816535106083787,
+    "adjusted_f1": 0.3323943661971831,
+    "event_recall": 0.8823529411764706,
+    "mean_delay": 2.7777777777777777,
+    "median_delay": 0.0,
+    "false_alarm_events": 1129,
+    "training_time_s": 1.0568,
+    "inference_time_s": 1.111,
+    "samples_per_sec": 26938.13,
+    "timestamp_utc": "2026-10-05T14:53:36.118568+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.044217,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3127,
+        "metadata": {
+          "validation_precision": 0.2433,
+          "validation_recall": 0.4376,
+          "validation_f1": 0.3127,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 29929,
+      "anomaly_samples": 3275
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_WIN_W100",
+    "mission": "SMAP",
+    "model_name": "M3_Window_W100",
+    "feature_group": "window_pooled",
+    "window_size": 100,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 9453,
+      "score_min": -0.11952671831275086,
+      "score_max": 0.15962843812399008
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.03404393419623375,
+    "random_seed": 42,
+    "precision": 0.162158569814581,
+    "recall": 0.6912181303116147,
+    "f1_score": 0.2626904236421381,
+    "pr_auc": 0.1914260271675095,
+    "roc_auc": 0.6299543784201964,
+    "adjusted_f1": 0.3494092978059633,
+    "event_recall": 0.8823529411764706,
+    "mean_delay": 6.066666666666666,
+    "median_delay": 0.0,
+    "false_alarm_events": 776,
+    "training_time_s": 1.5191,
+    "inference_time_s": 0.7688,
+    "samples_per_sec": 38924.64,
+    "timestamp_utc": "2026-10-05T14:53:43.235971+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.034044,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4178,
+        "metadata": {
+          "validation_precision": 0.2937,
+          "validation_recall": 0.7234,
+          "validation_f1": 0.4178,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 29924,
+      "anomaly_samples": 3530
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_WIN_W128",
+    "mission": "SMAP",
+    "model_name": "M3_Window_W128",
+    "feature_group": "window_pooled",
+    "window_size": 128,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 9451,
+      "score_min": -0.10770202055779471,
+      "score_max": 0.13933412141172086
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.028918378055095673,
+    "random_seed": 42,
+    "precision": 0.16118245050829322,
+    "recall": 0.6554256187109057,
+    "f1_score": 0.2587363787642923,
+    "pr_auc": 0.223942364992195,
+    "roc_auc": 0.6237158907492568,
+    "adjusted_f1": 0.3562379649336171,
+    "event_recall": 0.8627450980392157,
+    "mean_delay": 6.7272727272727275,
+    "median_delay": 1.0,
+    "false_alarm_events": 834,
+    "training_time_s": 1.7931,
+    "inference_time_s": 0.8572,
+    "samples_per_sec": 34904.08,
+    "timestamp_utc": "2026-10-05T14:53:53.297747+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.028918,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4385,
+        "metadata": {
+          "validation_precision": 0.3098,
+          "validation_recall": 0.7505,
+          "validation_f1": 0.4385,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 29921,
+      "anomaly_samples": 3677
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_WIN_W256",
+    "mission": "SMAP",
+    "model_name": "M3_Window_W256",
+    "feature_group": "window_pooled",
+    "window_size": 256,
+    "stride": 10,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 42,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 9438,
+      "score_min": -0.11922590733910499,
+      "score_max": 0.16028459279883767
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.026721006259322166,
+    "random_seed": 42,
+    "precision": 0.19536105593643877,
+    "recall": 0.7051341350601296,
+    "f1_score": 0.3059555466358938,
+    "pr_auc": 0.2438564267622792,
+    "roc_auc": 0.6213984296310888,
+    "adjusted_f1": 0.3835695135963233,
+    "event_recall": 0.82,
+    "mean_delay": 7.585365853658536,
+    "median_delay": 0.0,
+    "false_alarm_events": 434,
+    "training_time_s": 7.7253,
+    "inference_time_s": 45.1776,
+    "samples_per_sec": 662.01,
+    "timestamp_utc": "2026-10-05T14:55:08.381301+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.026721,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.4677,
+        "metadata": {
+          "validation_precision": 0.338,
+          "validation_recall": 0.759,
+          "validation_f1": 0.4677,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 29908,
+      "anomaly_samples": 4324
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_SEED_s123",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 123,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.15229619594729976,
+      "score_max": 0.20174304058883008
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.05660193786025047,
+    "random_seed": 123,
+    "precision": 0.10371113044247526,
+    "recall": 0.46501173437345056,
+    "f1_score": 0.16959716453987064,
+    "pr_auc": 0.11450134928361641,
+    "roc_auc": 0.5661198662505337,
+    "adjusted_f1": 0.3322971815206168,
+    "event_recall": 1.0,
+    "mean_delay": 15.980392156862745,
+    "median_delay": 6.0,
+    "false_alarm_events": 6099,
+    "training_time_s": 2.3273,
+    "inference_time_s": 5.8657,
+    "samples_per_sec": 51031.27,
+    "timestamp_utc": "2026-10-05T14:55:18.957656+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.056602,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3114,
+        "metadata": {
+          "validation_precision": 0.2366,
+          "validation_recall": 0.4554,
+          "validation_f1": 0.3114,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_SEED_s456",
+    "mission": "SMAP",
+    "model_name": "M3_IsolationForest_AllFeatures",
+    "feature_group": "all",
+    "window_size": null,
+    "stride": null,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "contamination": "auto",
+      "max_samples": "auto",
+      "random_state": 456,
+      "feature_group": "all",
+      "selected_features_count": 45,
+      "fit_split": "train",
+      "train_samples": 94628,
+      "score_min": -0.15235772546663645,
+      "score_max": 0.2146151244058715
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": -0.05613783192363653,
+    "random_seed": 456,
+    "precision": 0.10449792074363992,
+    "recall": 0.45185601427957556,
+    "f1_score": 0.16974091848834968,
+    "pr_auc": 0.11444493528518548,
+    "roc_auc": 0.5650063976026234,
+    "adjusted_f1": 0.34058721545493437,
+    "event_recall": 1.0,
+    "mean_delay": 38.411764705882355,
+    "median_delay": 6.0,
+    "false_alarm_events": 5973,
+    "training_time_s": 1.5377,
+    "inference_time_s": 3.4442,
+    "samples_per_sec": 86909.35,
+    "timestamp_utc": "2026-10-05T14:55:26.366231+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": -0.056138,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3213,
+        "metadata": {
+          "validation_precision": 0.251,
+          "validation_recall": 0.4462,
+          "validation_f1": 0.3213,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_D001_LSTM_Pred",
+    "mission": "MSL",
+    "model_name": "LSTMForecaster_W50_H32",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 50,
+      "hidden_dim": 32,
+      "num_layers": 1,
+      "best_val_loss": 0.0008635782287456095,
+      "residual_mean": 0.0625908300280571,
+      "residual_std": 0.12131857872009277,
+      "random_seed": 42,
+      "num_training_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.3233482264569312,
+    "random_seed": 42,
+    "precision": 0.2000968210424399,
+    "recall": 0.24040325707638618,
+    "f1_score": 0.218405988551299,
+    "pr_auc": 0.16962521101071804,
+    "roc_auc": 0.5956901891196784,
+    "adjusted_f1": 0.6754403195181038,
+    "event_recall": 1.0,
+    "mean_delay": 19.130434782608695,
+    "median_delay": 10.0,
+    "false_alarm_events": 1318,
+    "training_time_s": 177.2884,
+    "inference_time_s": 19.625,
+    "samples_per_sec": 2629.86,
+    "timestamp_utc": "2026-10-05T15:36:00.066841+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.323348,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3451,
+        "metadata": {
+          "validation_precision": 0.2782,
+          "validation_recall": 0.4544,
+          "validation_f1": 0.3451,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_D002_LSTM_Pred_W100",
+    "mission": "MSL",
+    "model_name": "LSTMForecaster_W100_H32",
+    "feature_group": "all",
+    "window_size": 100,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 100,
+      "hidden_dim": 32,
+      "num_layers": 1,
+      "best_val_loss": 0.0008526900201104581,
+      "residual_mean": 0.06328827887773514,
+      "residual_std": 0.12170954048633575,
+      "random_seed": 42,
+      "num_training_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.2795315077900887,
+    "random_seed": 42,
+    "precision": 0.1951638065522621,
+    "recall": 0.24253586661496704,
+    "f1_score": 0.21628630705394192,
+    "pr_auc": 0.16548077797451988,
+    "roc_auc": 0.5953776909116933,
+    "adjusted_f1": 0.6666235864297253,
+    "event_recall": 1.0,
+    "mean_delay": 17.82608695652174,
+    "median_delay": 10.0,
+    "false_alarm_events": 1327,
+    "training_time_s": 426.0248,
+    "inference_time_s": 23.9948,
+    "samples_per_sec": 2150.92,
+    "timestamp_utc": "2026-10-05T15:43:41.157501+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.279532,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3441,
+        "metadata": {
+          "validation_precision": 0.2722,
+          "validation_recall": 0.4678,
+          "validation_f1": 0.3441,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_D003_LSTM_AE",
+    "mission": "MSL",
+    "model_name": "LSTMAutoencoder_W50_L16",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 50,
+      "hidden_dim": 32,
+      "latent_dim": 16,
+      "best_val_loss": 0.011202896013855934,
+      "recon_mean": 0.016373589634895325,
+      "recon_std": 0.01776513271033764,
+      "random_seed": 42,
+      "num_training_samples": 40821
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.7684971275714925,
+    "random_seed": 42,
+    "precision": 0.24525205158264948,
+    "recall": 0.20279177975959675,
+    "f1_score": 0.2220099755916375,
+    "pr_auc": 0.18680764727254354,
+    "roc_auc": 0.6456257738218304,
+    "adjusted_f1": 0.7020452432599938,
+    "event_recall": 0.6521739130434783,
+    "mean_delay": 61.733333333333334,
+    "median_delay": 45.0,
+    "false_alarm_events": 73,
+    "training_time_s": 219.6248,
+    "inference_time_s": 24.0393,
+    "samples_per_sec": 2146.94,
+    "timestamp_utc": "2026-10-05T15:47:59.878397+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.768497,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3807,
+        "metadata": {
+          "validation_precision": 0.4222,
+          "validation_recall": 0.3466,
+          "validation_f1": 0.3807,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_MSL_D004_DeepHybrid",
+    "mission": "MSL",
+    "model_name": "DeepHybrid_M4_HybridDetector+LSTMForecaster_W50_H32_a50",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.5,
+      "classical_model": "M4_HybridDetector",
+      "deep_model": "LSTMForecaster_W50_H32",
+      "classical_min": 0.0,
+      "classical_max": 2.0472724437713623,
+      "deep_min": 0.0,
+      "deep_max": 20.22694206237793
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.12560556128395323,
+    "random_seed": 42,
+    "precision": 0.2049651210504719,
+    "recall": 0.19367972082202403,
+    "f1_score": 0.19916267942583732,
+    "pr_auc": 0.24294203931919206,
+    "roc_auc": 0.744038160556985,
+    "adjusted_f1": 0.7039242413372551,
+    "event_recall": 0.9130434782608695,
+    "mean_delay": 17.142857142857142,
+    "median_delay": 9.0,
+    "false_alarm_events": 727,
+    "training_time_s": 97.1918,
+    "inference_time_s": 13.34,
+    "samples_per_sec": 3868.9,
+    "timestamp_utc": "2026-10-05T15:50:01.057632+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.125606,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3979,
+        "metadata": {
+          "validation_precision": 0.3766,
+          "validation_recall": 0.4218,
+          "validation_f1": 0.3979,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 51611,
+      "anomaly_samples": 5158
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_D001_LSTM_Pred",
+    "mission": "SMAP",
+    "model_name": "LSTMForecaster_W50_H32",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 50,
+      "hidden_dim": 32,
+      "num_layers": 1,
+      "best_val_loss": 0.0046158479526638985,
+      "residual_mean": 0.040120333433151245,
+      "residual_std": 0.07753264904022217,
+      "random_seed": 42,
+      "num_training_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.0,
+    "random_seed": 42,
+    "precision": 0.10106837892373685,
+    "recall": 1.0,
+    "f1_score": 0.1835823839070346,
+    "pr_auc": 0.11157740931122685,
+    "roc_auc": 0.5315743661755266,
+    "adjusted_f1": 0.1835823839070346,
+    "event_recall": 1.0,
+    "mean_delay": 0.0,
+    "median_delay": 0.0,
+    "false_alarm_events": 0,
+    "training_time_s": 157.8161,
+    "inference_time_s": 136.7478,
+    "samples_per_sec": 2188.93,
+    "timestamp_utc": "2026-10-05T15:55:58.484542+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.0,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3201,
+        "metadata": {
+          "validation_precision": 0.1905,
+          "validation_recall": 1.0,
+          "validation_f1": 0.3201,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_D002_LSTM_Pred_W100",
+    "mission": "SMAP",
+    "model_name": "LSTMForecaster_W100_H32",
+    "feature_group": "all",
+    "window_size": 100,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 100,
+      "hidden_dim": 32,
+      "num_layers": 1,
+      "best_val_loss": 0.0046371196245623605,
+      "residual_mean": 0.036894600838422775,
+      "residual_std": 0.07274781912565231,
+      "random_seed": 42,
+      "num_training_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.0,
+    "random_seed": 42,
+    "precision": 0.10106837892373685,
+    "recall": 1.0,
+    "f1_score": 0.1835823839070346,
+    "pr_auc": 0.11175161943871606,
+    "roc_auc": 0.5353707612689844,
+    "adjusted_f1": 0.1835823839070346,
+    "event_recall": 1.0,
+    "mean_delay": 0.0,
+    "median_delay": 0.0,
+    "false_alarm_events": 0,
+    "training_time_s": 240.6371,
+    "inference_time_s": 109.6413,
+    "samples_per_sec": 2730.1,
+    "timestamp_utc": "2026-10-05T16:43:42.300725+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.0,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3201,
+        "metadata": {
+          "validation_precision": 0.1905,
+          "validation_recall": 1.0,
+          "validation_f1": 0.3201,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_D003_LSTM_AE",
+    "mission": "SMAP",
+    "model_name": "LSTMAutoencoder_W50_L16",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "window_size": 50,
+      "hidden_dim": 32,
+      "latent_dim": 16,
+      "best_val_loss": 0.04165373845781024,
+      "recon_mean": 0.03905501589179039,
+      "recon_std": 0.03208048269152641,
+      "random_seed": 42,
+      "num_training_samples": 94628
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.0,
+    "random_seed": 42,
+    "precision": 0.10106837892373685,
+    "recall": 1.0,
+    "f1_score": 0.1835823839070346,
+    "pr_auc": 0.10967804579465558,
+    "roc_auc": 0.4498181966355947,
+    "adjusted_f1": 0.1835823839070346,
+    "event_recall": 1.0,
+    "mean_delay": 0.0,
+    "median_delay": 0.0,
+    "false_alarm_events": 0,
+    "training_time_s": 189.5667,
+    "inference_time_s": 109.4718,
+    "samples_per_sec": 2734.33,
+    "timestamp_utc": "2026-10-05T16:49:07.987388+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.0,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3201,
+        "metadata": {
+          "validation_precision": 0.1905,
+          "validation_recall": 1.0,
+          "validation_f1": 0.3201,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  },
+  {
+    "experiment_id": "EXP_SMAP_D004_DeepHybrid",
+    "mission": "SMAP",
+    "model_name": "DeepHybrid_M4_HybridDetector+LSTMForecaster_W50_H32_a50",
+    "feature_group": "all",
+    "window_size": 50,
+    "stride": null,
+    "hyperparameters": {
+      "alpha": 0.5,
+      "classical_model": "M4_HybridDetector",
+      "deep_model": "LSTMForecaster_W50_H32",
+      "classical_min": 0.0,
+      "classical_max": 1.8683068752288818,
+      "deep_min": 0.0,
+      "deep_max": 15.626891136169434
+    },
+    "threshold_strategy": "validation_f1_optimal",
+    "threshold": 0.08985307067632675,
+    "random_seed": 42,
+    "precision": 0.13914562029530067,
+    "recall": 0.7295474828942584,
+    "f1_score": 0.2337150753689026,
+    "pr_auc": 0.13398520578017586,
+    "roc_auc": 0.6272029069968318,
+    "adjusted_f1": 0.3070544472806808,
+    "event_recall": 1.0,
+    "mean_delay": 13.882352941176471,
+    "median_delay": 1.0,
+    "false_alarm_events": 6006,
+    "training_time_s": 135.1973,
+    "inference_time_s": 33.4992,
+    "samples_per_sec": 8935.49,
+    "timestamp_utc": "2026-10-05T16:52:15.628152+00:00",
+    "metadata": {
+      "threshold_calibration": {
+        "strategy": "validation_f1_optimal",
+        "threshold": 0.089853,
+        "fit_split": "val_test",
+        "target_param": null,
+        "best_metric_value": 0.3506,
+        "metadata": {
+          "validation_precision": 0.2421,
+          "validation_recall": 0.6352,
+          "validation_f1": 0.3506,
+          "num_candidates_tested": 100
+        }
+      },
+      "test_samples": 299332,
+      "anomaly_samples": 30253
+    }
+  }
+]

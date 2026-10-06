@@ -1,0 +1,15 @@
+{
+  "model_name": "LSTMForecaster_W50_H32",
+  "model_version": "0.1.0",
+  "is_fitted": true,
+  "fit_metadata": {
+    "window_size": 50,
+    "hidden_dim": 32,
+    "num_layers": 1,
+    "best_val_loss": 0.0008635782287456095,
+    "residual_mean": 0.0625908300280571,
+    "residual_std": 0.12131857872009277,
+    "random_seed": 42,
+    "num_training_samples": 40821
+  }
+}

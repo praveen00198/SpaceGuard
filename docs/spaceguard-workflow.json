@@ -1,0 +1,298 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "SpaceGuard AI End-to-End Telemetry & Anomaly Workflow",
+    "animation": "trace",
+    "visual_preset": "signal-flow",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "telemetry-intake",
+        "label": "Ingestion & Normalization",
+        "focus": ["sat_telemetry", "ingest_norm", "feat_pipeline", "mongo_store"],
+        "note": "Raw telemetry streams from SatNOGS and historical archives are validated by Zod schemas and normalized to canonical units."
+      },
+      {
+        "id": "hybrid-detection",
+        "label": "Hybrid Detection & Correlation",
+        "focus": ["feat_pipeline", "rule_engine", "anomaly_engine", "env_context", "correlator", "evidence_builder"],
+        "note": "Deterministic rules, FastAPI Isolation Forest, and NOAA space weather join into structured evidence."
+      },
+      {
+        "id": "grounded-ops",
+        "label": "Grounded AI & Operator Action",
+        "focus": ["evidence_builder", "gemini_engine", "operator_ui"],
+        "note": "Gemini reasons strictly over structured evidence IDs (EV-xxx) to empower human operator decisions without hallucination."
+      }
+    ],
+    "output": "docs/spaceguard-workflow.html"
+  },
+  "lanes": [
+    { "id": "pipeline", "label": "Telemetry Ingestion & Features" },
+    { "id": "detection", "label": "Hybrid Detection Engine" },
+    { "id": "evidence", "label": "Context & Evidence Persistence" },
+    { "id": "ops", "label": "AI Reasoning & Operations" }
+  ],
+  "phases": [
+    { "id": "intake_phase", "label": "Intake & Normalization", "fromCol": 0, "toCol": 1 },
+    { "id": "detection_phase", "label": "Detection & Correlation", "fromCol": 2, "toCol": 3, "variant": "emphasis" },
+    { "id": "investigation_phase", "label": "Evidence & Investigation", "fromCol": 4, "toCol": 5, "variant": "security" }
+  ],
+  "groups": [
+    { "id": "ingest_group", "label": "Canonical ingestion", "lane": "pipeline", "fromCol": 0, "toCol": 2, "variant": "default" },
+    { "id": "detection_group", "label": "Multi-model detection", "lane": "detection", "fromCol": 2, "toCol": 3, "variant": "emphasis" },
+    { "id": "context_group", "label": "Context correlation", "lane": "evidence", "fromCol": 1, "toCol": 4, "variant": "dashed" },
+    { "id": "ops_group", "label": "Grounded investigation", "lane": "ops", "fromCol": 4, "toCol": 5, "variant": "security" }
+  ],
+  "mainPath": [
+    "sat_telemetry",
+    "ingest_norm",
+    "feat_pipeline",
+    "anomaly_engine",
+    "evidence_builder",
+    "gemini_engine",
+    "operator_ui"
+  ],
+  "nodes": [
+    {
+      "id": "sat_telemetry",
+      "lane": "pipeline",
+      "col": 0,
+      "type": "external",
+      "label": "Telemetry Feeds",
+      "sublabel": "SatNOGS / archives",
+      "tag": "frames",
+      "width": 132
+    },
+    {
+      "id": "ingest_norm",
+      "lane": "pipeline",
+      "col": 1,
+      "type": "backend",
+      "label": "Ingest Normalizer",
+      "sublabel": "Zod schema & units",
+      "tag": "validated",
+      "width": 132
+    },
+    {
+      "id": "feat_pipeline",
+      "lane": "pipeline",
+      "col": 2,
+      "type": "database",
+      "label": "Feature Pipeline",
+      "sublabel": "rolling EWMA",
+      "tag": "vectors",
+      "width": 132
+    },
+    {
+      "id": "rule_engine",
+      "lane": "detection",
+      "col": 2,
+      "type": "backend",
+      "label": "Rules & Stats",
+      "sublabel": "limits & 3σ scores",
+      "tag": "deterministic",
+      "width": 132
+    },
+    {
+      "id": "anomaly_engine",
+      "lane": "detection",
+      "col": 3,
+      "type": "cloud",
+      "label": "Hybrid Engine",
+      "sublabel": "Isolation Forest",
+      "tag": "FastAPI ML",
+      "brand": "fastapi",
+      "width": 132
+    },
+    {
+      "id": "mongo_store",
+      "lane": "evidence",
+      "col": 1,
+      "type": "database",
+      "label": "MongoDB Store",
+      "sublabel": "telemetry series",
+      "tag": "persistence",
+      "brand": "mongodb",
+      "width": 132
+    },
+    {
+      "id": "env_context",
+      "lane": "evidence",
+      "col": 2,
+      "type": "external",
+      "label": "Space Weather",
+      "sublabel": "NOAA & CelesTrak",
+      "tag": "Kp & SAA",
+      "width": 132
+    },
+    {
+      "id": "correlator",
+      "lane": "evidence",
+      "col": 3,
+      "type": "backend",
+      "label": "Correlator",
+      "sublabel": "weather & orbit join",
+      "tag": "multivariate",
+      "width": 132
+    },
+    {
+      "id": "evidence_builder",
+      "lane": "evidence",
+      "col": 4,
+      "type": "security",
+      "label": "Evidence Builder",
+      "sublabel": "structured EV-IDs",
+      "tag": "grounding gate",
+      "width": 132
+    },
+    {
+      "id": "gemini_engine",
+      "lane": "ops",
+      "col": 4,
+      "type": "cloud",
+      "label": "Gemini AI",
+      "sublabel": "grounded claims",
+      "tag": "no invention",
+      "brand": "google-gemini",
+      "width": 132
+    },
+    {
+      "id": "operator_ui",
+      "lane": "ops",
+      "col": 5,
+      "type": "frontend",
+      "label": "Operator UI",
+      "sublabel": "investigation view",
+      "tag": "human in loop",
+      "brand": "react",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_telemetry_ingest",
+      "from": "sat_telemetry",
+      "to": "ingest_norm",
+      "label": "telemetry",
+      "variant": "emphasis",
+      "role": "main"
+    },
+    {
+      "id": "edge_ingest_mongo",
+      "from": "ingest_norm",
+      "to": "mongo_store",
+      "label": "storage",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_ingest_feat",
+      "from": "ingest_norm",
+      "to": "feat_pipeline",
+      "label": "stream",
+      "variant": "emphasis",
+      "role": "main"
+    },
+    {
+      "id": "edge_feat_rules",
+      "from": "feat_pipeline",
+      "to": "rule_engine",
+      "label": "metrics",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_feat_anomaly",
+      "from": "feat_pipeline",
+      "to": "anomaly_engine",
+      "label": "features",
+      "variant": "emphasis",
+      "role": "main"
+    },
+    {
+      "id": "edge_rules_anomaly",
+      "from": "rule_engine",
+      "to": "anomaly_engine",
+      "label": "alarms",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_anomaly_evidence",
+      "from": "anomaly_engine",
+      "to": "evidence_builder",
+      "label": "scores",
+      "variant": "emphasis",
+      "role": "main"
+    },
+    {
+      "id": "edge_anomaly_correlator",
+      "from": "anomaly_engine",
+      "to": "correlator",
+      "label": "triggers",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_env_correlator",
+      "from": "env_context",
+      "to": "correlator",
+      "label": "weather",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_correlator_evidence",
+      "from": "correlator",
+      "to": "evidence_builder",
+      "label": "context",
+      "variant": "default",
+      "role": "branch"
+    },
+    {
+      "id": "edge_evidence_gemini",
+      "from": "evidence_builder",
+      "to": "gemini_engine",
+      "label": "evidence",
+      "variant": "security",
+      "role": "main"
+    },
+    {
+      "id": "edge_gemini_ui",
+      "from": "gemini_engine",
+      "to": "operator_ui",
+      "label": "assessment",
+      "variant": "emphasis",
+      "role": "main"
+    },
+    {
+      "id": "edge_mongo_ui",
+      "from": "mongo_store",
+      "to": "operator_ui",
+      "label": "history",
+      "variant": "dashed",
+      "role": "return",
+      "fromSide": "bottom",
+      "toSide": "bottom",
+      "route": "bottom-channel"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Evidence Grounding",
+      "items": [
+        "Evidence packages ground all AI claims in verified EV-IDs"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Hybrid Detection",
+      "items": [
+        "Rules, statistics, and ML join space weather context for operators"
+      ]
+    }
+  ]
+}

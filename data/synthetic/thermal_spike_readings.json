@@ -1,0 +1,7202 @@
+[
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 3.6971,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 1.1914,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 14.4666,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 25.702,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 21.9362,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": -0.1497,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": -74.3354,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 0.4198,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 246.7456,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 0.0116,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 0.0232,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:00+00:00",
+    "value": 0.1164,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 3.7131,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 1.2055,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 14.2785,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 23.9853,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 22.1232,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 0.1311,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": -74.9167,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 0.4681,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 257.9766,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": -0.1454,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": -0.0312,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:10+00:00",
+    "value": 0.049,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 3.7175,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 1.188,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 14.613,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 25.2482,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 22.3912,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": -0.1113,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": -73.8635,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 0.0456,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 210.7008,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": -0.0607,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": -0.0916,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:20+00:00",
+    "value": 0.0876,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 3.7133,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 1.139,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 14.7542,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 23.9978,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 21.9569,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": -0.0294,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": -74.7712,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 0.7456,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 259.5762,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 0.035,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 0.065,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:30+00:00",
+    "value": 0.0478,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 3.6875,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 1.1641,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 14.359,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 25.4993,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 21.8749,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 0.2336,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": -76.6386,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 0.1703,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 261.5271,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 0.1422,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 0.0506,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:40+00:00",
+    "value": 0.0836,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 3.7285,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 1.1953,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 14.0731,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 24.4679,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 22.4764,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": -0.1444,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": -74.9329,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 0.576,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 245.2661,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 0.0724,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 0.0581,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:00:50+00:00",
+    "value": 0.2321,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 3.7124,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 1.1695,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 14.3315,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 24.1684,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 22.4761,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": -0.0567,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": -75.1405,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 0.7248,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": 239.1481,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": -0.0294,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": -0.1841,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:00+00:00",
+    "value": -0.1082,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 3.6886,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 1.2208,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 14.858,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 24.9815,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 22.1307,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 0.0168,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": -72.8305,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 0.768,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 254.1054,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": -0.1011,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 0.0903,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:10+00:00",
+    "value": 0.0381,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 3.7245,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 1.1985,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 15.0859,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 24.6411,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 22.7965,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 0.0115,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": -76.0325,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 0.1615,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 247.7345,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 0.1423,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 0.0816,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:20+00:00",
+    "value": 0.0689,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 3.6525,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 1.2355,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 14.6668,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 24.4501,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 21.6863,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": -0.0002,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": -71.5502,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 0.1835,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 243.5829,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": 0.1362,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": -0.0446,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:30+00:00",
+    "value": -0.0364,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 3.702,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 1.1379,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 14.566,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 23.7904,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 22.4426,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 0.0003,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": -70.4331,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 0.5843,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 270.4853,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": -0.1303,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": -0.0122,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:40+00:00",
+    "value": 0.0323,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 3.7349,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 1.116,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 14.7972,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 25.5914,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 22.7668,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 0.0712,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": -74.8959,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 0.3435,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 231.2773,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 0.0195,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": -0.0192,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:01:50+00:00",
+    "value": 0.202,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 3.6878,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 1.216,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 14.0293,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 24.6045,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 22.1306,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 0.0824,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": -72.1038,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 0.4868,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 233.2413,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 0.0458,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 0.0517,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:00+00:00",
+    "value": 0.0492,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 3.686,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 1.2567,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 14.5264,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 25.6998,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 22.637,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 0.0609,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": -74.427,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 1.1458,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 253.6555,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": -0.0296,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 0.0112,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:10+00:00",
+    "value": 0.1483,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 3.7024,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 1.226,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 14.8587,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 24.4871,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 21.1367,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 0.0299,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": -74.5405,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 0.3176,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 263.0663,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 0.0608,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": -0.0995,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:20+00:00",
+    "value": 0.0518,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 3.6961,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 1.1258,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 14.6359,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 24.9548,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 21.6274,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 0.0523,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": -74.0238,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 0.3267,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 256.0053,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 0.1015,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": -0.0713,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:30+00:00",
+    "value": 0.0381,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 3.7001,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 1.3133,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 13.9413,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 25.6953,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 21.8469,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": -0.01,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": -71.1968,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 0.4974,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 283.6142,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": -0.0442,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": 0.0351,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:40+00:00",
+    "value": -0.0491,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 3.6862,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 1.2031,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 14.4152,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 25.2025,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 20.9475,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 0.2002,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": -75.334,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 1.0229,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 234.8933,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 0.0293,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": 0.3165,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:02:50+00:00",
+    "value": -0.087,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 3.6701,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 1.1727,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 14.6417,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 25.6933,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 22.6452,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": -0.0257,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": -78.2045,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 0.3695,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 268.6033,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": 0.0466,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": -0.1957,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:00+00:00",
+    "value": -0.0035,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 3.728,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 1.3063,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 14.6685,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 25.3093,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 27.2132,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": -0.0843,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": -74.9062,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 0.651,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": 258.7028,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": -0.0478,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": -0.1152,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:10+00:00",
+    "value": -0.0778,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 3.6769,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 1.2322,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 13.8063,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 24.6667,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 33.8916,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 0.1522,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": -74.8574,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 0.8004,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 244.0149,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": -0.0744,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": -0.0674,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:20+00:00",
+    "value": 0.1527,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 3.7199,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 1.2244,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 15.4991,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 24.9677,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 39.8102,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 0.0308,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": -75.4438,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 1.1949,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 272.5991,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": -0.1399,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": -0.04,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:30+00:00",
+    "value": 0.0428,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 3.7157,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 1.1326,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 13.8233,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 23.0936,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 45.2978,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": -0.0103,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": -74.3096,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 0.2691,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 231.6364,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": -0.2023,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 0.0329,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:40+00:00",
+    "value": 0.037,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 3.7199,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 1.2395,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 14.4428,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 26.3493,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 51.0985,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": -0.0661,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": -76.0412,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 0.3246,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 217.5139,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 0.0156,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": 0.025,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:03:50+00:00",
+    "value": -0.0362,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 3.6857,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 1.2186,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 15.0151,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 25.0383,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 56.7462,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": -0.0591,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": -75.1395,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 0.1206,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 248.1211,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 0.0061,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 0.1845,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:00+00:00",
+    "value": 0.0943,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 3.7207,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 1.1644,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 14.701,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 23.8606,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 55.449,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 0.0419,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": -76.5328,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 1.0998,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 258.5106,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": -0.1903,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": 0.0553,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:10+00:00",
+    "value": -0.0407,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 3.7,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 1.2233,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 14.6172,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 22.9608,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 53.0901,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 0.0773,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": -72.3976,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 1.0709,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 277.0475,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": -0.2056,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": 0.0769,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:20+00:00",
+    "value": -0.1916,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 3.7323,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 1.2127,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 14.1576,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 27.0099,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 52.4468,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": -0.1891,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": -74.4131,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 0.2807,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 251.6694,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": -0.0465,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": 0.1373,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:30+00:00",
+    "value": -0.1423,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 3.7063,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 1.2907,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 14.2519,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 25.2106,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 50.7566,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": -0.069,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": -73.7042,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 0.5291,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 235.8435,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 0.1762,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": 0.0792,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:40+00:00",
+    "value": -0.0167,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 3.6873,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 1.1608,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 14.8693,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 24.8535,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 49.4877,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": -0.0184,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": -73.7672,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 0.4652,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 261.4578,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": -0.0183,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 0.083,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:04:50+00:00",
+    "value": 0.0672,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 3.6977,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 1.157,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 14.218,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 24.2593,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 47.4364,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 0.0866,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": -75.0932,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 0.971,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 284.1899,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": 0.0024,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": -0.1548,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:00+00:00",
+    "value": -0.0381,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 3.6985,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 1.1256,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 14.4249,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 25.2869,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 46.4344,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": -0.0768,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": -76.5175,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 1.036,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 247.6053,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": -0.083,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": -0.0373,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:10+00:00",
+    "value": 0.0954,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 3.6863,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 1.2241,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 14.7184,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 25.7491,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 46.161,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": -0.055,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": -72.7345,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 0.2621,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 244.0519,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 0.1196,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 0.0822,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:20+00:00",
+    "value": 0.0002,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 3.6762,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 1.2281,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 14.3109,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 24.0761,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 43.9929,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 0.0246,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": -79.2421,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 0.6082,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 252.6086,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": -0.0585,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 0.1037,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:30+00:00",
+    "value": 0.0611,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 3.6879,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 1.1665,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 14.7085,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 23.4839,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 43.0623,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": -0.0631,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": -74.8602,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 0.5633,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 250.5518,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 0.1135,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": 0.0228,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:40+00:00",
+    "value": -0.0315,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 3.6758,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 1.2361,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 14.6584,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 26.4508,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 41.8195,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 0.0026,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": -75.1174,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 0.4737,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 250.1559,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": -0.1715,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 0.0825,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:05:50+00:00",
+    "value": 0.0653,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 3.7226,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 1.3125,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 14.4043,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 24.9639,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 41.2133,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 0.1942,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": -78.4624,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 0.6457,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": 227.9375,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": -0.2582,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": -0.2021,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:00+00:00",
+    "value": -0.1382,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 3.7214,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 1.1566,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 14.4318,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 23.8365,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 40.5771,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": -0.1102,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": -72.3647,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 0.2021,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 238.5276,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 0.0123,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 0.0025,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:10+00:00",
+    "value": 0.1425,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 3.7024,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 1.1396,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 14.3319,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 24.4272,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 39.743,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 0.0384,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": -75.2388,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 0.7609,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 242.0726,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": -0.0136,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 0.0181,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:20+00:00",
+    "value": 0.1528,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 3.698,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 1.1825,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 14.1862,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 25.6861,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 38.239,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 0.0344,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": -78.8032,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 0.813,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 230.0209,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": -0.0777,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": 0.1059,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:30+00:00",
+    "value": -0.1334,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 3.6984,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 1.2037,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 14.2004,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 26.3429,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 38.4759,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": -0.1972,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": -77.898,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 0.7425,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 230.4546,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": -0.0389,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 0.013,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:40+00:00",
+    "value": 0.0692,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 3.6955,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 1.2048,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 14.267,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 26.2924,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 36.7119,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 0.034,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": -76.0233,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 0.5319,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 247.4776,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": -0.0162,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": -0.1014,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:06:50+00:00",
+    "value": 0.0796,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 3.7283,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 1.2122,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 14.7197,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 25.8381,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 36.6939,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 0.0303,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": -74.5755,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 0.7592,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 251.0325,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": -0.0974,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": 0.0024,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:00+00:00",
+    "value": -0.1888,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 3.6999,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 1.2207,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 14.8708,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 25.1513,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 36.0,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": -0.0001,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": -77.047,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 0.0766,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 235.454,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": -0.1366,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": 0.0634,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:10+00:00",
+    "value": -0.0208,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 3.7114,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 1.2037,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 14.8132,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 26.0602,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 34.5531,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": -0.0274,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": -76.0657,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 0.0136,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 260.1283,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": 0.1189,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": -0.0006,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:20+00:00",
+    "value": -0.0493,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 3.7218,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 1.0828,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 14.5532,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 25.1433,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 33.9624,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 0.1392,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": -73.0585,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 0.4217,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": 248.6996,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": -0.0388,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": -0.0512,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:30+00:00",
+    "value": -0.1308,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 3.7276,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 1.2514,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 14.7394,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 23.9057,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 34.6909,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 0.198,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": -74.6239,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 0.2287,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 237.0035,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": 0.0419,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": -0.0913,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:40+00:00",
+    "value": -0.0034,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 3.7218,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 1.1247,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 15.1017,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 26.5667,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 32.4637,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": -0.1414,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": -75.5668,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 0.1907,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 246.0442,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": -0.2581,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": -0.0229,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:07:50+00:00",
+    "value": 0.1803,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 3.6777,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 1.1863,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 14.0531,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 25.6382,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 32.4291,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 0.1941,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": -74.5863,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 0.3883,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 258.2541,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": -0.0506,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": -0.1339,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:00+00:00",
+    "value": 0.0302,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 3.6965,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 1.2083,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 14.6126,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 24.4897,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 32.2385,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 0.1738,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": -77.2156,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 1.0212,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 246.358,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": -0.0767,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 0.2427,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:10+00:00",
+    "value": 0.0155,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 3.7274,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 1.2409,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 13.9958,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 25.1208,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 31.276,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": -0.1342,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": -78.5434,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 0.5307,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 258.8538,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": 0.0391,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": -0.0306,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:20+00:00",
+    "value": -0.0799,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 3.6803,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 1.1722,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 14.1901,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 24.7967,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 31.062,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": -0.0896,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": -75.4641,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 0.2719,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 249.9329,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 0.0507,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 0.0178,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:30+00:00",
+    "value": 0.0472,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 3.667,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 1.1811,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 14.583,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 25.6412,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 29.8319,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 0.0159,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": -72.5872,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 0.4464,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 248.5786,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 0.045,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 0.0247,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:40+00:00",
+    "value": 0.0675,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 3.7014,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 1.2076,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 14.2653,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 24.8296,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 30.8365,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": -0.0204,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": -75.3371,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 0.3525,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 261.8078,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": -0.0855,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": 0.0911,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:08:50+00:00",
+    "value": -0.0937,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 3.6788,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 1.2103,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 14.5391,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 25.2976,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 30.3408,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": -0.0412,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": -74.114,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 0.2271,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 268.8875,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 0.0632,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 0.0537,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:00+00:00",
+    "value": 0.0188,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 3.6843,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 1.1836,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 14.6505,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 24.9808,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 29.4906,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": -0.136,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": -74.6378,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 0.2924,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 233.75,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": -0.0155,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": -0.1857,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:10+00:00",
+    "value": 0.0699,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 3.717,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 1.1973,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 14.2019,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 24.0546,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 28.9908,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": -0.2424,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": -74.639,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 0.6993,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 245.3216,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": -0.0494,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 0.0182,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:20+00:00",
+    "value": 0.0351,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 3.7219,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 1.2009,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 14.2931,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 24.5387,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 28.8127,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 0.1556,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": -75.6405,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 0.1842,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 236.9484,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": -0.2096,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": 0.033,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:30+00:00",
+    "value": -0.1361,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 3.6753,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 1.1012,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 14.1646,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 25.5684,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 27.7382,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": -0.175,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": -74.6435,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 0.3976,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 256.4829,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": 0.0741,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": -0.0008,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:40+00:00",
+    "value": -0.1298,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_voltage",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 3.6975,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "battery_current",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 1.225,
+    "unit": "A",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "solar_panel_voltage",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 14.3251,
+    "unit": "V",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "power_consumption",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 23.5625,
+    "unit": "W",
+    "subsystem": "power",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "temperature",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 28.6334,
+    "unit": "C",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "thermal_gradient",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": -0.0415,
+    "unit": "C/min",
+    "subsystem": "thermal",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "signal_strength",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": -75.8185,
+    "unit": "dBm",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "packet_loss_rate",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 0.5048,
+    "unit": "%",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "link_latency",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 265.4571,
+    "unit": "ms",
+    "subsystem": "communication",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "roll",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 0.0264,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "pitch",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": -0.0333,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  },
+  {
+    "satelliteId": "SIM-001",
+    "parameter": "yaw",
+    "timestamp": "2026-09-25T10:09:50+00:00",
+    "value": 0.0682,
+    "unit": "deg",
+    "subsystem": "attitude",
+    "source": "simulator",
+    "quality": "valid"
+  }
+]

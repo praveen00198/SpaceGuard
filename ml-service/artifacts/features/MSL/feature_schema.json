@@ -1,0 +1,550 @@
+{
+  "mission": "MSL",
+  "feature_count": 54,
+  "feature_names": [
+    "channel_0_scaled",
+    "delta_1",
+    "rolling_mean_10",
+    "rolling_std_10",
+    "rolling_min_10",
+    "rolling_max_10",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "rolling_min_30",
+    "rolling_max_30",
+    "rolling_mean_100",
+    "rolling_std_100",
+    "rolling_min_100",
+    "rolling_max_100",
+    "ema_10",
+    "ema_30",
+    "ema_100",
+    "ema_divergence_10_30",
+    "ema_divergence_30_100",
+    "active_command_count",
+    "continuous_val_when_command_active",
+    "continuous_delta_when_command_active",
+    "aux_discrete_ch_1",
+    "aux_discrete_ch_2",
+    "aux_discrete_ch_3",
+    "aux_discrete_ch_4",
+    "aux_discrete_ch_5",
+    "aux_discrete_ch_6",
+    "aux_discrete_ch_7",
+    "aux_discrete_ch_8",
+    "aux_discrete_ch_9",
+    "aux_discrete_ch_10",
+    "aux_discrete_ch_11",
+    "aux_discrete_ch_12",
+    "aux_discrete_ch_13",
+    "aux_discrete_ch_14",
+    "aux_discrete_ch_15",
+    "aux_discrete_ch_16",
+    "aux_discrete_ch_17",
+    "aux_discrete_ch_18",
+    "aux_discrete_ch_19",
+    "aux_discrete_ch_20",
+    "aux_discrete_ch_21",
+    "aux_discrete_ch_22",
+    "aux_discrete_ch_23",
+    "aux_discrete_ch_24",
+    "aux_discrete_ch_25",
+    "aux_discrete_ch_26",
+    "aux_discrete_ch_27",
+    "aux_discrete_ch_28",
+    "aux_discrete_ch_29",
+    "aux_discrete_ch_30",
+    "aux_discrete_ch_31",
+    "aux_discrete_ch_32"
+  ],
+  "features": [
+    {
+      "name": "channel_0_scaled",
+      "type": "base_continuous",
+      "source_channel": 0,
+      "transformation": "continuous_scaled",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "delta_1",
+      "type": "temporal_delta",
+      "source_channel": 0,
+      "transformation": "first_difference",
+      "parameters": {
+        "fill_first": 0.0
+      },
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_mean_10",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_std_10",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_min_10",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_max_10",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_mean_30",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_std_30",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_min_30",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_max_30",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_mean_100",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_std_100",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_min_100",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "rolling_max_100",
+      "type": "rolling_stat",
+      "source_channel": 0,
+      "transformation": "causal_rolling_window",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "ema_10",
+      "type": "ema",
+      "source_channel": 0,
+      "transformation": "exponential_moving_average",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "ema_30",
+      "type": "ema",
+      "source_channel": 0,
+      "transformation": "exponential_moving_average",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "ema_100",
+      "type": "ema",
+      "source_channel": 0,
+      "transformation": "exponential_moving_average",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "ema_divergence_10_30",
+      "type": "ema_divergence",
+      "source_channel": 0,
+      "transformation": "exponential_moving_average",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "ema_divergence_30_100",
+      "type": "ema_divergence",
+      "source_channel": 0,
+      "transformation": "exponential_moving_average",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "active_command_count",
+      "type": "command_context",
+      "source_channel": "multiple_discrete",
+      "transformation": "command_conditioned_telemetry",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "continuous_val_when_command_active",
+      "type": "command_context",
+      "source_channel": "multiple_discrete",
+      "transformation": "command_conditioned_telemetry",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "continuous_delta_when_command_active",
+      "type": "command_context",
+      "source_channel": "multiple_discrete",
+      "transformation": "command_conditioned_telemetry",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_1",
+      "type": "native_discrete",
+      "source_channel": 1,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_2",
+      "type": "native_discrete",
+      "source_channel": 2,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_3",
+      "type": "native_discrete",
+      "source_channel": 3,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_4",
+      "type": "native_discrete",
+      "source_channel": 4,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_5",
+      "type": "native_discrete",
+      "source_channel": 5,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_6",
+      "type": "native_discrete",
+      "source_channel": 6,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_7",
+      "type": "native_discrete",
+      "source_channel": 7,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_8",
+      "type": "native_discrete",
+      "source_channel": 8,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_9",
+      "type": "native_discrete",
+      "source_channel": 9,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_10",
+      "type": "native_discrete",
+      "source_channel": 10,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_11",
+      "type": "native_discrete",
+      "source_channel": 11,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_12",
+      "type": "native_discrete",
+      "source_channel": 12,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_13",
+      "type": "native_discrete",
+      "source_channel": 13,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_14",
+      "type": "native_discrete",
+      "source_channel": 14,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_15",
+      "type": "native_discrete",
+      "source_channel": 15,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_16",
+      "type": "native_discrete",
+      "source_channel": 16,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_17",
+      "type": "native_discrete",
+      "source_channel": 17,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_18",
+      "type": "native_discrete",
+      "source_channel": 18,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_19",
+      "type": "native_discrete",
+      "source_channel": 19,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_20",
+      "type": "native_discrete",
+      "source_channel": 20,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_21",
+      "type": "native_discrete",
+      "source_channel": 21,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_22",
+      "type": "native_discrete",
+      "source_channel": 22,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_23",
+      "type": "native_discrete",
+      "source_channel": 23,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_24",
+      "type": "native_discrete",
+      "source_channel": 24,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_25",
+      "type": "native_discrete",
+      "source_channel": 25,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_26",
+      "type": "native_discrete",
+      "source_channel": 26,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_27",
+      "type": "native_discrete",
+      "source_channel": 27,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_28",
+      "type": "native_discrete",
+      "source_channel": 28,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_29",
+      "type": "native_discrete",
+      "source_channel": 29,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_30",
+      "type": "native_discrete",
+      "source_channel": 30,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_31",
+      "type": "native_discrete",
+      "source_channel": 31,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    },
+    {
+      "name": "aux_discrete_ch_32",
+      "type": "native_discrete",
+      "source_channel": 32,
+      "transformation": "native_binary_passthrough",
+      "parameters": {},
+      "causal": true,
+      "dtype": "float32"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mission": "MSL",
+  "scaler_type": "robust",
+  "continuous_channels": [
+    0
+  ],
+  "fit_split": "train",
+  "params": {
+    "center": [
+      -0.45195455420758723
+    ],
+    "scale": [
+      1.9602758445355444
+    ]
+  }
+}

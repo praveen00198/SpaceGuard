@@ -1,0 +1,17 @@
+{
+  "model_name": "M3_IsolationForest_AllFeatures",
+  "model_version": "0.1.0",
+  "is_fitted": true,
+  "fit_metadata": {
+    "n_estimators": 100,
+    "contamination": "auto",
+    "max_samples": "auto",
+    "random_state": 42,
+    "feature_group": "all",
+    "selected_features_count": 54,
+    "fit_split": "train",
+    "train_samples": 40821,
+    "score_min": -0.15393202834017117,
+    "score_max": 0.16866679766113213
+  }
+}

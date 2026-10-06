@@ -1,0 +1,39 @@
+version: '3.8'
+
+# SpaceGuard AI — Docker Compose (Development)
+# Future: Will include all services for one-command startup
+
+services:
+  mongodb:
+    image: mongo:7
+    container_name: spaceguard-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=spaceguard
+
+  # backend:
+  #   build: ./backend
+  #   ports:
+  #     - "3001:3001"
+  #   depends_on:
+  #     - mongodb
+  #   env_file:
+  #     - .env
+
+  # frontend:
+  #   build: ./frontend
+  #   ports:
+  #     - "5173:5173"
+  #   depends_on:
+  #     - backend
+
+  # ml-service:
+  #   build: ./ml-service
+  #   ports:
+  #     - "8000:8000"
+
+volumes:
+  mongodb_data:

@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "SpaceGuard AI End-to-End Telemetry & Anomaly Data Flow",
+    "output": "docs/spaceguard-dataflow.html",
+    "viewBox": [1480, 680],
+    "animation": "trace",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "telemetry-ingestion",
+        "label": "Ingestion & Normalization",
+        "focus": ["sat_telemetry", "ingest_pipeline", "feature_store"],
+        "note": "Heterogeneous telemetry feeds are validated against canonical Zod schemas and normalized to standard SI units."
+      },
+      {
+        "id": "detection-correlation",
+        "label": "Hybrid Detection & Correlation",
+        "focus": ["feature_store", "rule_stats", "ml_detector", "correlation_engine", "evidence_package"],
+        "note": "Rule thresholds, statistical z-scores, and ML Isolation Forest anomalies correlate with space weather."
+      },
+      {
+        "id": "grounded-investigation",
+        "label": "Grounded AI & Operations",
+        "focus": ["evidence_package", "gemini_reasoning", "operator_console"],
+        "note": "Gemini inspects structured evidence packages to generate grounded root-cause assessments for operators."
+      }
+    ]
+  },
+  "stages": [
+    { "label": "Telemetry & Context Sources" },
+    { "label": "Ingestion & Features" },
+    { "label": "Hybrid Anomaly Detection" },
+    { "label": "Evidence & Persistence" },
+    { "label": "Grounded AI & Operations" }
+  ],
+  "nodes": [
+    {
+      "id": "sat_telemetry",
+      "type": "external",
+      "label": "Telemetry Feeds",
+      "sublabel": "SatNOGS & archives",
+      "stage": 0,
+      "row": 0,
+      "tag": "time-series",
+      "width": 136
+    },
+    {
+      "id": "env_sources",
+      "type": "external",
+      "label": "Space Environment",
+      "sublabel": "NOAA SWPC & CelesTrak",
+      "stage": 0,
+      "row": 2,
+      "tag": "space weather",
+      "width": 136
+    },
+    {
+      "id": "ingest_pipeline",
+      "type": "backend",
+      "label": "Ingest Normalizer",
+      "sublabel": "Zod schema & SI units",
+      "stage": 1,
+      "row": 0,
+      "tag": "canonical schema",
+      "width": 136
+    },
+    {
+      "id": "feature_store",
+      "type": "database",
+      "label": "Feature Pipeline",
+      "sublabel": "rolling EWMA windows",
+      "stage": 1,
+      "row": 1,
+      "tag": "feature vectors",
+      "width": 136
+    },
+    {
+      "id": "rule_stats",
+      "type": "backend",
+      "label": "Rules & Stats",
+      "sublabel": "thresholds & 3σ z-scores",
+      "stage": 2,
+      "row": 0,
+      "tag": "deterministic",
+      "width": 136
+    },
+    {
+      "id": "ml_detector",
+      "type": "cloud",
+      "label": "Isolation Forest",
+      "sublabel": "FastAPI ML service",
+      "stage": 2,
+      "row": 1,
+      "tag": "unsupervised",
+      "brand": "fastapi",
+      "width": 136
+    },
+    {
+      "id": "correlation_engine",
+      "type": "backend",
+      "label": "Correlator",
+      "sublabel": "weather & orbit temporal join",
+      "stage": 2,
+      "row": 2,
+      "tag": "multivariate",
+      "width": 136
+    },
+    {
+      "id": "evidence_package",
+      "type": "security",
+      "label": "Evidence Builder",
+      "sublabel": "structured EV-IDs package",
+      "stage": 3,
+      "row": 0,
+      "tag": "grounding gate",
+      "width": 136
+    },
+    {
+      "id": "mongo_store",
+      "type": "database",
+      "label": "MongoDB Store",
+      "sublabel": "telemetry & anomaly records",
+      "stage": 3,
+      "row": 1,
+      "tag": "persistence",
+      "brand": "mongodb",
+      "width": 136
+    },
+    {
+      "id": "gemini_reasoning",
+      "type": "cloud",
+      "label": "Gemini Reasoner",
+      "sublabel": "evidence-grounded analysis",
+      "stage": 4,
+      "row": 0,
+      "tag": "no hallucination",
+      "brand": "google-gemini",
+      "width": 136
+    },
+    {
+      "id": "operator_console",
+      "type": "frontend",
+      "label": "Operator Console",
+      "sublabel": "investigation dashboard",
+      "stage": 4,
+      "row": 1,
+      "tag": "human in loop",
+      "brand": "react",
+      "width": 136
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow_telemetry_ingest",
+      "from": "sat_telemetry",
+      "to": "ingest_pipeline",
+      "label": "raw telemetry",
+      "classification": "raw frames",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "id": "flow_ingest_rules",
+      "from": "ingest_pipeline",
+      "to": "rule_stats",
+      "label": "canonical readings",
+      "classification": "SI units",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "id": "flow_ingest_features",
+      "from": "ingest_pipeline",
+      "to": "feature_store",
+      "label": "calibrated series",
+      "classification": "realtime points",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow_features_ml",
+      "from": "feature_store",
+      "to": "ml_detector",
+      "label": "feature vectors",
+      "classification": "sliding windows",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "id": "flow_env_correlation",
+      "from": "env_sources",
+      "to": "correlation_engine",
+      "label": "space weather & orbit",
+      "classification": "Kp & SAA passes",
+      "variant": "default",
+      "route": "straight"
+    },
+    {
+      "id": "flow_rules_evidence",
+      "from": "rule_stats",
+      "to": "evidence_package",
+      "label": "rule alarms",
+      "classification": "threshold breaches",
+      "variant": "emphasis",
+      "route": "straight"
+    },
+    {
+      "id": "flow_ml_evidence",
+      "from": "ml_detector",
+      "to": "evidence_package",
+      "label": "anomaly scores",
+      "classification": "outlier probabilities",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow_corr_evidence",
+      "from": "correlation_engine",
+      "to": "evidence_package",
+      "label": "correlated context",
+      "classification": "environmental factors",
+      "variant": "default"
+    },
+    {
+      "id": "flow_ml_mongo",
+      "from": "ml_detector",
+      "to": "mongo_store",
+      "label": "model inferences",
+      "classification": "prediction records",
+      "variant": "default",
+      "route": "straight"
+    },
+    {
+      "id": "flow_evidence_gemini",
+      "from": "evidence_package",
+      "to": "gemini_reasoning",
+      "label": "evidence package",
+      "classification": "grounded claims",
+      "variant": "security",
+      "route": "straight"
+    },
+    {
+      "id": "flow_gemini_console",
+      "from": "gemini_reasoning",
+      "to": "operator_console",
+      "label": "grounded assessment",
+      "classification": "root-cause analysis",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow_mongo_console",
+      "from": "mongo_store",
+      "to": "operator_console",
+      "label": "historical trends",
+      "classification": "telemetry charts",
+      "variant": "default",
+      "route": "straight"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Evidence Over Invention",
+      "items": [
+        "Gemini receives strictly structured evidence packages containing verified telemetry facts",
+        "AI reasoning is grounded in explicit evidence IDs (EV-xxx) to prevent hallucination",
+        "Deterministic health calculations and anomaly scores remain separate from AI interpretation"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Hybrid Detection Pipeline",
+      "items": [
+        "Rule & Statistical engines flag out-of-bounds limits and 3-sigma deviations deterministically",
+        "FastAPI ML microservice runs Isolation Forest models for multivariate outlier scoring",
+        "Correlation engine joins space weather (NOAA Kp index) and orbital passes (SAA entry)"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Operational Governance",
+      "items": [
+        "All data passes through canonical Zod validation and SI unit conversion",
+        "System maintains full utility even if external AI or space weather APIs degrade",
+        "Human operators retain final command authority with full provenance audit trails"
+      ]
+    }
+  ]
+}

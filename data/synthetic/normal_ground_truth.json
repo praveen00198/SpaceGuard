@@ -1,0 +1,13 @@
+{
+  "scenarioId": "NORMAL-42",
+  "scenario": "normal",
+  "satelliteId": "SIM-001",
+  "startTime": "2026-09-25T10:00:00+00:00",
+  "endTime": "2026-09-25T10:10:00+00:00",
+  "duration_seconds": 600,
+  "interval_seconds": 10,
+  "total_readings": 720,
+  "seed": 42,
+  "faultType": null,
+  "anomalyExpected": false
+}

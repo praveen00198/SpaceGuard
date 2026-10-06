@@ -1,0 +1,20 @@
+{
+  "model_name": "M4_Hybrid_a50",
+  "model_version": "0.1.0",
+  "is_fitted": true,
+  "fit_metadata": {
+    "alpha": 0.5,
+    "statistical_model": "M1_TemporalStatistical",
+    "ml_model": "M3_IF_sub_alpha_0.5",
+    "stat_range": [
+      0.0,
+      3.254117488861084
+    ],
+    "ml_range": [
+      -0.15393203496932983,
+      0.0672839805483818
+    ],
+    "fit_split": "train",
+    "train_samples": 40821
+  }
+}

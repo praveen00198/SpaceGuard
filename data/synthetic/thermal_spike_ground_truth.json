@@ -1,0 +1,17 @@
+{
+  "scenarioId": "THERMAL_SPIKE-42",
+  "scenario": "thermal_spike",
+  "satelliteId": "SIM-001",
+  "startTime": "2026-09-25T10:00:00+00:00",
+  "endTime": "2026-09-25T10:10:00+00:00",
+  "duration_seconds": 600,
+  "interval_seconds": 10,
+  "total_readings": 720,
+  "seed": 42,
+  "faultType": "thermal_spike",
+  "faultStartTime": "2026-09-25T10:03:00+00:00",
+  "faultEndTime": "2026-09-25T10:10:00+00:00",
+  "affectedParameter": "temperature",
+  "affectedSubsystem": "thermal",
+  "anomalyExpected": true
+}
